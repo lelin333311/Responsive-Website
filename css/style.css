@@ -1,0 +1,151 @@
+/* Font Setting */
+/* Poopins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Unbounded */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Root Veriable */
+:root {
+    --primary-button-color: #BFFF47;
+    --primary-font-color: #03151A;
+    --lato-font-family: "Lato", sans-serif;
+
+}
+
+/* Main button */
+.nav-button a.nav-button-section {
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    text-decoration: none;
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 48px;
+}
+
+.navigation-four ul.nav-ul-section {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-four ul.nav-ul-section li.nav-li-section {
+    list-style-type: none;
+}
+
+.navigation-four ul.nav-ul-section li.nav-li-section a.nav-a-section {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.16px;
+    font-weight: 400;
+    font-family: var(--lato-font-family);
+    color: var(--primary-font-color);
+
+}
+
+nav.navigation-ber .nav-img-and-home-nevber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+
+.nav-small-img-and-home-nevber {
+    display: none;
+}
+
+/* Header Start */
+
+.header-section {
+    padding: 20px 24px 100px 24px;
+    background-color: white;
+}
+
+.discover-division {
+    padding: 20px 24px 100px 24px;
+    background-color: var(--primary-font-color);
+}
+
+/* Header End */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    nav.navigation-ber .nav-img-and-home-nevber {
+        display: none;
+    }
+
+    .nav-small-img-and-home-nevber {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+
+    .navigation-small-four .all-nav-small-ul-section ul.nav-small-ul-section {
+        list-style-type: none;
+        padding-bottom: 40px;
+    }
+
+    .navigation-small-four .all-nav-small-ul-section ul.nav-small-ul-section li.nav-small-li-section a.nav-small-a-section {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        font-weight: 400;
+        font-family: var(--lato-font-family);
+        color: var(--primary-font-color);
+    }
+
+    /* Small Button */
+    .nav-small-img-and-home-nevber .navigation-small-four .nav-small-button a.nav-small-button-section {
+        background-color: var(--primary-button-color);
+        color: var(--primary-font-color);
+        text-decoration: none;
+        font-family: var(--lato-font-family);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        padding: 16px 32px;
+        gap: 10px;
+        border-radius: 48px;
+    }
+
+    span.navber-small-span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: var(--primary-font-color);
+        margin: 5px 0;
+        transition: 0.3s ease;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .all-nav-small-ul-section {
+        text-align: center;
+    }
+
+    li.nav-small-li-section {
+    padding-bottom: 40px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {}
+
+/* Many Small devices ( Small phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
