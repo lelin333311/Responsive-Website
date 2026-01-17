@@ -16,6 +16,7 @@
     --primary-button-color: #BFFF47;
     --primary-font-color: #03151A;
     --lato-font-family: "Lato", sans-serif;
+    --background-color-blur: #03151AB2;
 
 }
 
@@ -74,9 +75,58 @@ nav.navigation-ber .nav-img-and-home-nevber {
 .discover-division {
     padding: 20px 24px 100px 24px;
     background-color: var(--primary-font-color);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
+
+.hero-discover-division {
+    position: relative;
+}
+
+.discover-s-media {
+    position: absolute;
+    background-color: var(--background-color-blur);
+    padding: 6px;
+    border-radius: 70px;
+    width: 52px;
+    height: 148px;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    left: 43%;
+    top: 4%;
 }
 
 /* Header End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
@@ -137,8 +187,8 @@ nav.navigation-ber .nav-img-and-home-nevber {
     }
 
     li.nav-small-li-section {
-    padding-bottom: 40px;
-}
+        padding-bottom: 40px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
