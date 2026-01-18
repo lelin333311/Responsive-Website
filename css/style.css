@@ -74,15 +74,16 @@ nav.navigation-ber .nav-img-and-home-nevber {
 }
 
 .discover-division {
-    padding: 20px 24px 100px 24px;
+    padding: 20px 24px 20px 24px;
     background-color: var(--primary-font-color);
     border-radius: 20px;
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .hero-discover-division {
     position: relative;
+
 }
 
 .discover-s-media {
@@ -95,7 +96,7 @@ nav.navigation-ber .nav-img-and-home-nevber {
     display: grid;
     align-content: space-around;
     justify-content: center;
-    left: 43%;
+    left: 80%;
     top: 4%;
 }
 
@@ -108,16 +109,37 @@ nav.navigation-ber .nav-img-and-home-nevber {
     width: 40px;
     height: 40px;
     transition: background-color 0.5s ease;
-
 }
 
 .hero-media a:hover {
     background-color: var(--primary-button-color);
 }
 
+img.herro-section-image {
+    width: 100%;
+    height: auto;
+
+}
+
 /* Header End */
 
+/* Media Screen Start */
 
+@media screen and (max-width: 1399px) {}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    .hero-media a {
+        padding: 10px;
+    }
+}
+
+@media screen and(max-width: 767px) {}
+
+@media screen and(max-width: 575px) {}
+
+/* Media Screen End */
 
 
 
