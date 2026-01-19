@@ -85,11 +85,16 @@ nav.navigation-ber .nav-img-and-home-nevber {
     display: none;
 }
 
-/* Discover Section Start */
+/* Discover Section Start */                                                                  
 
-.discover-section {
+.container-hero-discover {
     background-color: var(--primary-font-color);
-    margin: 0 24px 100px 24px;
+    margin: 0 24px 0 24px;
+    border-radius: 12px;
+}
+
+img.discover-main-svg-image {
+    width: 100%;
 }
 
 /* Discover Section End */
