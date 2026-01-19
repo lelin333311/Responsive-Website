@@ -18,13 +18,14 @@
     --lato-font-family: "Lato", sans-serif;
     --background-color-blur: #03151AB2;
     --common-color: white;
+    --sub-title: #CED3D4;
 }
 
 /* All Container */
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*  Container-discover-section  */
@@ -53,23 +54,58 @@
 .col-10,
 .col-11,
 .col-12 {
-  padding: 15px;
-  box-sizing: border-box;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 /* Column width */
-.col-1  { width: 8.33%; }
-.col-2  { width: 16.66%; }
-.col-3  { width: 25%; }
-.col-4  { width: 33.33%; }
-.col-5  { width: 41.66%; }
-.col-6  { width: 50%; }
-.col-7  { width: 58.33%; }
-.col-8  { width: 66.66%; }
-.col-9  { width: 75%; }
-.col-10 { width: 83.33%; }
-.col-11 { width: 91.66%; }
-.col-12 { width: 100%; }
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 /* Column Desktop default */
 /* .col-6 {
@@ -194,12 +230,24 @@ p.active-companies {
 }
 
 .discover-hero-right-section {
-   padding-top: 109px;
-   padding-left: 18px;
-   
+    padding-top: 109px;
+    padding-left: 18px;
 }
 
+.discover-right-section-images {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
+p.discover-right-most-popular {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+}
 
 /* Discover Section End */
 
