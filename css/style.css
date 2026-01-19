@@ -18,7 +18,26 @@
     --lato-font-family: "Lato", sans-serif;
     --background-color-blur: #03151AB2;
     --common-color: white;
+}
 
+/* ===== Container ===== */
+.container-hero-discover {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ===== Row ===== */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ===== Column (Desktop default) ===== */
+.col-6 {
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 /* Main button */
@@ -66,66 +85,14 @@ nav.navigation-ber .nav-img-and-home-nevber {
     display: none;
 }
 
-/* Header Start */
+/* Discover Section Start */
 
-.header-section {
-    padding: 20px 24px 100px 24px;
-    background-color: white;
-}
-
-.discover-division {
-    padding: 20px 24px 20px 24px;
+.discover-section {
     background-color: var(--primary-font-color);
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 0 24px 100px 24px;
 }
 
-.hero-discover-division {
-    position: relative;
-
-}
-
-.discover-s-media {
-    position: absolute;
-    background-color: var(--background-color-blur);
-    padding: 6px;
-    border-radius: 70px;
-    width: 50px;
-    height: 160px;
-    display: grid;
-    align-content: space-around;
-    justify-content: center;
-    left: 80%;
-    top: 4%;
-}
-
-.hero-media a {
-    background-color: var(--common-color);
-    border-radius: 48px;
-    padding: 16px;
-    gap: 10px;
-    color: var(--primary-font-color);
-    width: 40px;
-    height: 40px;
-    transition: background-color 0.5s ease;
-}
-
-.hero-media a:hover {
-    background-color: var(--primary-button-color);
-}
-
-img.herro-section-image {
-    width: 100%;
-    height: auto;
-
-}
-
-.active-and-verified-ber {
-    
-}
-
-/* Header End */
+/* Discover Section End */
 
 /* Media Screen Start */
 
@@ -134,24 +101,22 @@ img.herro-section-image {
 @media screen and (max-width: 1199px) {}
 
 @media screen and (max-width: 991px) {
-    .hero-media a {
-        padding: 10px;
-    }
-
-    .discover-s-media {
-        width: 38px;
-        height: 130px;
-        left: 70%;
+    .col-6 {
+        width: 100%;
     }
 }
 
 @media screen and(max-width: 767px) {
-    .discover-s-media {
-        left: 70%;
+    .col-6 {
+        width: 100%;
     }
 }
 
-@media screen and(max-width: 575px) {}
+@media screen and(max-width: 575px) {
+    .col-6 {
+        width: 100%;
+    }
+}
 
 /* Media Screen End */
 
