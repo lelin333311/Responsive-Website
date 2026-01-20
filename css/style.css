@@ -15,10 +15,12 @@
 :root {
     --primary-button-color: #BFFF47;
     --primary-font-color: #03151A;
+    --secondery-bg-color: #022B36;
     --lato-font-family: "Lato", sans-serif;
     --background-color-blur: #03151AB2;
     --common-color: white;
     --sub-title: #CED3D4;
+    --bg-color-success: #E3DFDC;
 }
 
 /* All Container */
@@ -235,9 +237,13 @@ p.active-companies {
 }
 
 .discover-right-section-images {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
     gap: 12px;
+    background-color: var(--secondery-bg-color);
+    padding: 4px 12px 4px 8px;
+    border-radius: 40px;
 }
 
 p.discover-right-most-popular {
@@ -249,7 +255,128 @@ p.discover-right-most-popular {
     color: var(--sub-title);
 }
 
+h1.discover-right-heading-section {
+    font-family: "Unbounded", sans-serif;
+    color: var(--common-color);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    padding-top: 32px;
+}
+
+h1.discover-right-heading-section span.opportunities {
+    color: var(--primary-button-color);
+}
+
+p.discover-para-section {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+    padding: 20px 0 40px 0;
+}
+
+.nav-button-section.button-padding {
+    padding: 20px 40px !important;
+}
+
+.discover-successful-jobs {
+    padding-top: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+h3.number-job-holder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--primary-button-color);
+    z-index: 22;
+}
+
+p.job-sucessful-member {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--bg-color-success);
+}
+
+.discover-zigzag-image img.discover-zigzag-image {
+    position: absolute;
+    top: 10%;
+    left: -2%;
+    width: 1392px;
+    height: 824px;
+}
+
+.helping-businesses-find-great-talent {
+    padding: 100px 69px 140px 69px;
+}
+
 /* Discover Section End */
+
+/* Helping Businesses Marque Secion Start */
+
+p.businesses-helping-section {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--primary-font-color);
+    padding-bottom: 36px;
+}
+
+.marquee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    overflow: hidden;
+    width: 100%;
+    padding: 36px 0;
+}
+
+.marquee-track {
+    display: flex;
+    width: fit-content;
+}
+
+.marquee-left {
+    animation: marquee-left 10s linear;
+}
+
+.scroll-card {
+    padding: 10px;
+    transition: transform 0.1s ease;
+}
+
+.scroll-card img {
+    /* width: 100%; */
+    border-radius: 8px;
+}
+
+@keyframes marquee-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee-container:hover .marquee-left {
+    animation-play-state: paused;
+}
+
+/* Helping Businesses Marque Secion End */
 
 /* Media Screen Start */
 
@@ -260,14 +387,47 @@ p.discover-right-most-popular {
         font-size: 12px;
     }
 
+    h1.discover-right-heading-section {
+        font-size: 40px;
+    }
+
     .active-verified-hero-section {
         gap: 30px;
+    }
+
+    p.discover-para-section {
+        font-size: 13px;
+    }
+
+    .discover-hero-right-section {
+        position: relative;
+        padding-top: 65px;
+    }
+
+    .discover-successful-jobs {
+        padding-top: 100px;
+    }
+
+    .discover-zigzag-image img.discover-zigzag-image {
+        position: absolute;
+        top: -20%;
+        left: -140%;
     }
 }
 
 @media screen and (max-width: 991px) {
     .col-6 {
         width: 100%;
+    }
+
+    .discover-hero-right-section {
+        padding-top: 0;
+    }
+
+    .discover-zigzag-image img.discover-zigzag-image {
+        position: absolute;
+        top: -60%;
+        left: -40%;
     }
 
     /* navber start */
