@@ -17,6 +17,8 @@
     --primary-font-color: #03151A;
     --secondery-bg-color: #022B36;
     --lato-font-family: "Lato", sans-serif;
+    --poppins-font-family: 'Poppins', sans-serif;
+    --unbounded-font-family: "Unbounded", sans-serif;
     --background-color-blur: #03151AB2;
     --common-color: white;
     --sub-title: #CED3D4;
@@ -33,6 +35,12 @@
 /*  Container-discover-section  */
 .container-hero-discover {
     max-width: 1392px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-joblyze {
+    max-width: 1201px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -211,7 +219,7 @@ img.discover-main-svg-image {
 }
 
 h2.number-discover-section {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--poppins-font-family);
     font-weight: 600;
     font-size: 36px;
     line-height: 100%;
@@ -219,7 +227,7 @@ h2.number-discover-section {
 }
 
 p.active-companies {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--poppins-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -247,7 +255,7 @@ p.active-companies {
 }
 
 p.discover-right-most-popular {
-    font-family: "Lato", sans-serif;
+    font-family: var(--lato-font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
@@ -256,7 +264,7 @@ p.discover-right-most-popular {
 }
 
 h1.discover-right-heading-section {
-    font-family: "Unbounded", sans-serif;
+    font-family: var(--unbounded-font-family);
     color: var(--common-color);
     font-weight: 500;
     font-size: 50px;
@@ -269,7 +277,7 @@ h1.discover-right-heading-section span.opportunities {
 }
 
 p.discover-para-section {
-    font-family: "Lato", sans-serif;
+    font-family: var(--lato-font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -291,7 +299,7 @@ p.discover-para-section {
 }
 
 h3.number-job-holder {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--poppins-font-family);
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
@@ -300,7 +308,7 @@ h3.number-job-holder {
 }
 
 p.job-sucessful-member {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--poppins-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -325,7 +333,7 @@ p.job-sucessful-member {
 
 p.businesses-helping-section {
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: var(--lato-font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
@@ -369,16 +377,17 @@ p.businesses-helping-section {
 }
 
 @media (max-width: 991.98px) {
-  .logo-marquee--marquee-group img {
-    height: 56px;
-    padding: 0 30px;
-  }
+    .logo-marquee--marquee-group img {
+        height: 56px;
+        padding: 0 30px;
+    }
 }
+
 @media (max-width: 767.98px) {
-  .logo-marquee--marquee-group img {
-    height: 48px;
-    padding: 0 20px;
-  }
+    .logo-marquee--marquee-group img {
+        height: 48px;
+        padding: 0 20px;
+    }
 }
 
 @keyframes scroll-left {
@@ -396,6 +405,25 @@ p.businesses-helping-section {
 }
 
 /* Helping Businesses Marque Secion End */
+
+/* Joblyze Section Start */
+
+section.joblyze-section {
+    padding: 0 0 140px 0;
+}
+
+.joblize-first-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.joblize-first-para p.joblyze-para {
+    font-family: var(--lato-font-family);
+}
+
+/* Joblyze Section End */
 
 /* Media Screen Start */
 
