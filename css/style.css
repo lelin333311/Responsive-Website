@@ -23,6 +23,10 @@
     --common-color: white;
     --sub-title: #CED3D4;
     --bg-color-success: #E3DFDC;
+    --off-white-color: #EEEEEE;
+    --subtitle-light-color: #677276;
+    --trusted-platform-color: #332619;
+    --trusted-platform-para: #655A4F;
 }
 
 /* All Container */
@@ -377,14 +381,14 @@ p.businesses-helping-section {
 }
 
 @media (max-width: 991.98px) {
-    .logo-marquee--marquee-group img {
+    .logo-marquee-marquee-group img {
         height: 56px;
         padding: 0 30px;
     }
 }
 
 @media (max-width: 767.98px) {
-    .logo-marquee--marquee-group img {
+    .logo-marquee-marquee-group img {
         height: 48px;
         padding: 0 20px;
     }
@@ -400,7 +404,7 @@ p.businesses-helping-section {
     }
 }
 
-.logo-marquee-marquee-group:hover {
+.logo-marquee-marquee:hover .logo-marquee-marquee-group {
     animation-play-state: paused;
 }
 
@@ -417,11 +421,73 @@ section.joblyze-section {
     align-items: center;
     justify-content: center;
     gap: 12px;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: var(--off-white-color);
+    padding: 4px 12px 4px 8px;
+    border-radius: 40px;
 }
 
-.joblize-first-para p.joblyze-para {
+span.joblyze-para {
     font-family: var(--lato-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
 }
+
+h2.choose-joblyze {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    text-align: center;
+    padding: 24px 0 16px 0;
+}
+
+p.find-relevant-jobs {
+    color: var(--subtitle-light-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding: 16px 0 56px 0;
+}
+
+/* three box item */
+
+.trusted-section-first {
+    background: linear-gradient(to right, #F3D8BD 0%, #FFE7CF 50%, #DEE5E8 100%);
+    border-radius: 12px; 
+}
+
+.trusted-platform {
+    padding: 24px 32px 0 32px;
+}
+
+h4.thousend-platform {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--trusted-platform-color);
+}
+
+p.every-job-para {
+    color: var(--trusted-platform-para);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+}
+background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
+
+
 
 /* Joblyze Section End */
 
