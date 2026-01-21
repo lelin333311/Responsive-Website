@@ -51,6 +51,12 @@
     padding: 0 15px;
 }
 
+.container-new-jobs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Row */
 .row {
     display: flex;
@@ -414,10 +420,6 @@ p.businesses-helping-section {
 
 /* Joblyze Section Start */
 
-section.joblyze-section {
-    padding: 0 0 140px 0;
-}
-
 .joblize-first-para {
     display: flex;
     align-items: center;
@@ -489,8 +491,12 @@ p.every-job-para {
     letter-spacing: -0.01em;
 }
 
+img.trusted-platform-image-svg {
+    width: 100%;
+}
+
 .fastest-growing {
-    padding: 32px 24px 94px 24px;
+    padding: 32px 24px 78px 24px;
 }
 
 .fastest-growing-job-network {
@@ -518,12 +524,13 @@ p.fastest-growing-heading-para {
 }
 
 .fastest-job-network-image img.fastest-job-image {
-    padding: 0 24px 0px 24px;
     margin-bottom: -37px;
+    width: 88%;
+    padding: 0 24px 0 24px;
 }
 
 .fastest-job-network-bar {
-    width: 370px;
+    width: 100%;
     height: 70px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -533,6 +540,7 @@ p.fastest-growing-heading-para {
 .faster-application-main-section {
     background: linear-gradient(to bottom, #D0D7F2, #EBE1DA);
     border-radius: 12px;
+    position: relative;
 }
 
 .faster-application-process {
@@ -554,11 +562,66 @@ p.apply-quickly-para {
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--faster-application-para-color);
+    padding-bottom: 38px;
 }
 
-
-
+img.faster-application-image {
+    /* position: absolute;
+    bottom: 01px; */
+    border-bottom-right-radius: 12px;
+    width: 100%;
+}
 /* Joblyze Section End */
+
+/*  New Jobs Posted Section Start */
+
+section.new-jobs-posted-section {
+    padding: 140px 0;
+}
+
+.new-jobs-para {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: var(--off-white-color);
+    border-radius: 40px;
+    text-align: start;
+    margin: 0 auto;
+    padding: 4px 12px 4px 8px;
+}
+
+p.job-section-para {
+    font-family: var(--lato-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
+}
+
+h2.new-jobs-heading-two {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    padding-top: 24px;
+}
+
+p.display-recently-posted {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    margin-left: auto;
+    width: fit-content;
+    padding-top: 50px;
+}
+
+/*  New Jobs Posted Section End */
 
 /* Media Screen Start */
 
@@ -604,16 +667,6 @@ p.apply-quickly-para {
 
     .col-4 {
         width: 100%;
-    }
-
-    .discover-hero-right-section {
-        padding-top: 0;
-    }
-
-    .discover-zigzag-image img.discover-zigzag-image {
-        position: absolute;
-        top: -60%;
-        left: -40%;
     }
 
     /* navber start */
@@ -679,6 +732,21 @@ p.apply-quickly-para {
     }
 
     /* navber end */
+
+    .discover-hero-right-section {
+        padding-top: 0;
+    }
+
+    .discover-zigzag-image img.discover-zigzag-image {
+        position: absolute;
+        top: -60%;
+        left: -40%;
+    }
+
+    h4.thousend-platform, p.every-job-para {
+        text-align: center;
+    }
+
 }
 
 @media screen and(max-width: 767px) {
