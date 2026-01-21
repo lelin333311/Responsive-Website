@@ -485,7 +485,35 @@ p.every-job-para {
     line-height: 150%;
     letter-spacing: -0.01em;
 }
-background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
+
+.fastest-growing {
+    padding: 32px 24px 50px 24px;
+}
+
+.fastest-growing-job-network {
+    background-image: linear-gradient(to bottom, #03151A, #0F6780);
+    border-radius: 12px;
+    position: relative;
+}
+
+h4.fastest-growing-heading-four {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--common-color);
+    padding-bottom: 12px;
+}
+
+p.fastest-growing-heading-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+}
+
 
 
 
