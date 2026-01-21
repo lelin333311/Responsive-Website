@@ -29,6 +29,8 @@
     --trusted-platform-para: #655A4F;
     --faster-application-color: #20273C;
     --faster-application-para-color: #4F5865;
+    --border-color: #F4F4F4;
+    --ux-ui-button: #F2E6D8;
 }
 
 /* All Container */
@@ -619,6 +621,61 @@ p.display-recently-posted {
     margin-left: auto;
     width: fit-content;
     padding-top: 50px;
+}
+
+.mid-level-designer {
+    width: 590px;
+    height: 196px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    background-color: var(--primary-button-color);
+}
+
+.mid-level-designer{
+    display: flex;
+    gap: 20px;
+}
+
+span.full-ux {
+    font-size: 12px;
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    background-color: var(--ux-ui-button);
+    padding: 4px 12px 4px 12px;
+    border-radius: 40px;
+    gap: 8px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
+}
+
+h5.frontend-developer {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+    padding: 16px 0 6px 0;
+}
+
+span.cloudshift {
+    font-family: var(--lato-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--primary-font-color);
+}
+
+p.build-modern-uis {
+    padding: 8px 0 16px 0;
+    color: var(--subtitle-light-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
 }
 
 /*  New Jobs Posted Section End */
