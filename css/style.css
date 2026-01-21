@@ -30,7 +30,8 @@
     --faster-application-color: #20273C;
     --faster-application-para-color: #4F5865;
     --border-color: #F4F4F4;
-    --ux-ui-button: #F2E6D8;
+    --ux-ui-button-main: #F2E6D8;
+    --hover-button-color: #0E3C48;
 }
 
 /* All Container */
@@ -624,30 +625,38 @@ p.display-recently-posted {
 }
 
 .mid-level-designer {
-    width: 590px;
-    height: 196px;
+    display: flex;
+    gap: 20px;
     border-radius: 12px;
     border: 1px solid var(--border-color);
     padding: 20px;
     background-color: var(--primary-button-color);
 }
 
-.mid-level-designer{
-    display: flex;
-    gap: 20px;
+.mid-level-designer:hover {
+    background-color: var(--secondery-bg-color);
+    transition: 0.5s ease-in-out;
 }
 
 span.full-ux {
     font-size: 12px;
     font-family: var(--lato-font-family);
     font-weight: 400;
-    background-color: var(--ux-ui-button);
+    background-color: var(--ux-ui-button-main);
     padding: 4px 12px 4px 12px;
     border-radius: 40px;
     gap: 8px;
     line-height: 100%;
     letter-spacing: -0.01em;
     color: var(--secondery-bg-color);
+}
+
+.mid-level-designer:hover .ux-ui-button span.full-ux {
+    font-family: var(--hover-button-color);
+    color: var(--primary-button-color);
+    background-color: var(--hover-button-color);
+    font-family: var(--lato-font-family);
+    transition: 0.5s ease-in-out;
 }
 
 h5.frontend-developer {
@@ -657,6 +666,11 @@ h5.frontend-developer {
     line-height: 135%;
     color: var(--primary-font-color);
     padding: 16px 0 6px 0;
+}
+
+.mid-level-designer:hover h5.frontend-developer {
+    color: var(--common-color);
+    transition: 0.5s ease-in-out;
 }
 
 span.cloudshift {
@@ -675,6 +689,28 @@ p.build-modern-uis {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
+    letter-spacing: -0.01em;
+}
+
+.two-four-years {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+p.two-four-years-para-section {
+    color: var(--subtitle-light-color);
+    line-height: 150%;
+    font-weight: 400;
+    font-family: var(--lato-font-family);
     letter-spacing: -0.01em;
 }
 
