@@ -27,6 +27,8 @@
     --subtitle-light-color: #677276;
     --trusted-platform-color: #332619;
     --trusted-platform-para: #655A4F;
+    --faster-application-color: #20273C;
+    --faster-application-para-color: #4F5865;
 }
 
 /* All Container */
@@ -462,11 +464,11 @@ p.find-relevant-jobs {
 
 .trusted-section-first {
     background: linear-gradient(to right, #F3D8BD 0%, #FFE7CF 50%, #DEE5E8 100%);
-    border-radius: 12px; 
+    border-radius: 12px;
 }
 
 .trusted-platform {
-    padding: 24px 32px 0 32px;
+    padding: 32px 24px 0 24px;
 }
 
 h4.thousend-platform {
@@ -475,6 +477,7 @@ h4.thousend-platform {
     font-size: 24px;
     line-height: 140%;
     color: var(--trusted-platform-color);
+    padding-bottom: 12px;
 }
 
 p.every-job-para {
@@ -487,7 +490,7 @@ p.every-job-para {
 }
 
 .fastest-growing {
-    padding: 32px 24px 50px 24px;
+    padding: 32px 24px 94px 24px;
 }
 
 .fastest-growing-job-network {
@@ -510,10 +513,48 @@ p.fastest-growing-heading-para {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     color: var(--sub-title);
 }
 
+.fastest-job-network-image img.fastest-job-image {
+    padding: 0 24px 0px 24px;
+    margin-bottom: -37px;
+}
+
+.fastest-job-network-bar {
+    width: 370px;
+    height: 70px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: linear-gradient(to bottom, #03151A, #0F6780);
+}
+
+.faster-application-main-section {
+    background: linear-gradient(to bottom, #D0D7F2, #EBE1DA);
+    border-radius: 12px;
+}
+
+.faster-application-process {
+    padding: 32px 24px 0 24px;
+}
+
+h4.faster-application-heading-four {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--faster-application-color);
+}
+
+p.apply-quickly-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--faster-application-para-color);
+}
 
 
 
@@ -558,6 +599,10 @@ p.fastest-growing-heading-para {
 
 @media screen and (max-width: 991px) {
     .col-6 {
+        width: 100%;
+    }
+
+    .col-4 {
         width: 100%;
     }
 
@@ -638,6 +683,10 @@ p.fastest-growing-heading-para {
 
 @media screen and(max-width: 767px) {
     .col-6 {
+        width: 100%;
+    }
+
+    .col-4 {
         width: 100%;
     }
 }
