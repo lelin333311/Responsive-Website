@@ -574,6 +574,7 @@ img.faster-application-image {
     border-bottom-right-radius: 12px;
     width: 100%;
 }
+
 /* Joblyze Section End */
 
 /*  New Jobs Posted Section Start */
@@ -631,6 +632,7 @@ p.display-recently-posted {
     border: 1px solid var(--border-color);
     padding: 20px;
     background-color: var(--primary-button-color);
+    transition: 0.5s ease-in-out;
 }
 
 .mid-level-designer:hover {
@@ -649,6 +651,7 @@ span.full-ux {
     line-height: 100%;
     letter-spacing: -0.01em;
     color: var(--secondery-bg-color);
+    transition: 0.5s ease-in-out;
 }
 
 .mid-level-designer:hover .ux-ui-button span.full-ux {
@@ -656,7 +659,7 @@ span.full-ux {
     color: var(--primary-button-color);
     background-color: var(--hover-button-color);
     font-family: var(--lato-font-family);
-    transition: 0.5s ease-in-out;
+
 }
 
 h5.frontend-developer {
@@ -666,11 +669,12 @@ h5.frontend-developer {
     line-height: 135%;
     color: var(--primary-font-color);
     padding: 16px 0 6px 0;
+    transition: 0.5s ease-in-out;
 }
 
 .mid-level-designer:hover h5.frontend-developer {
     color: var(--common-color);
-    transition: 0.5s ease-in-out;
+
 }
 
 span.cloudshift {
@@ -680,6 +684,12 @@ span.cloudshift {
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--primary-font-color);
+    transition: 0.5s ease-in-out;
+}
+
+.mid-level-designer:hover span.cloudshift {
+    color: var(--common-color);
+
 }
 
 p.build-modern-uis {
@@ -690,6 +700,11 @@ p.build-modern-uis {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: -0.01em;
+    transition: 0.5s ease-in-out;
+}
+
+.mid-level-designer:hover p.build-modern-uis {
+    color: var(--sub-title);
 }
 
 .two-four-years {
@@ -697,6 +712,15 @@ p.build-modern-uis {
     align-items: center;
     justify-content: center;
     gap: 6px;
+}
+
+.two-four-years svg {
+    fill: #022B36;
+    transition: fill 0.5s ease;
+}
+
+.mid-level-designer:hover svg {
+    fill: white;
 }
 
 .experience {
@@ -712,6 +736,11 @@ p.two-four-years-para-section {
     font-weight: 400;
     font-family: var(--lato-font-family);
     letter-spacing: -0.01em;
+    transition: 0.5s ease-in-out;
+}
+
+.mid-level-designer:hover p.two-four-years-para-section {
+    color: var(--sub-title);
 }
 
 /*  New Jobs Posted Section End */
@@ -836,7 +865,8 @@ p.two-four-years-para-section {
         left: -40%;
     }
 
-    h4.thousend-platform, p.every-job-para {
+    h4.thousend-platform,
+    p.every-job-para {
         text-align: center;
     }
 
