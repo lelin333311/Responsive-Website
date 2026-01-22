@@ -738,6 +738,7 @@ p.two-four-years-para-section {
     font-family: var(--lato-font-family);
     letter-spacing: -0.01em;
     transition: 0.5s ease-in-out;
+    font-size: 14px;
 }
 
 .mid-level-designer:hover p.two-four-years-para-section {
