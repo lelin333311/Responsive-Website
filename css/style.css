@@ -745,7 +745,66 @@ p.two-four-years-para-section {
     color: var(--sub-title);
 }
 
+.joblize-button {
+    padding-top: 48px;
+}
+
+.button-nav {
+    text-align: center;
+    margin: auto 0;
+}
+
 /*  New Jobs Posted Section End */
+
+/* How Our Platform Works Start */
+
+.platform-works-section {
+    padding-bottom: 140px;
+}
+
+.how-it-work-section {
+    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: var(--off-white-color);
+    padding: 4px 12px 4px 8px;
+    border-radius: 40px;
+}
+
+p.workes-para {
+    color: var(--secondery-bg-color);
+    line-height: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--lato-font-family);
+    letter-spacing: -0.01em;
+}
+
+h2.platform-workes-heading-two {
+    padding: 24px 0 16px 0;
+    text-align: center;
+    font-family: var(--unbounded-font-family);
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+}
+
+p.job-finding {
+    color: var(--subtitle-light-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+/* How Our Platform Works End */
 
 /* Media Screen Start */
 
