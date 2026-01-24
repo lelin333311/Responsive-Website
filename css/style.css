@@ -60,6 +60,12 @@
     padding: 0 15px;
 }
 
+.container-platform-works {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Row */
 .row {
     display: flex;
@@ -802,6 +808,39 @@ p.job-finding {
     letter-spacing: -0.01em;
     text-align: center;
     padding-bottom: 56px;
+}
+
+.create-an-account-section {
+    background-color: var(--border-color);
+    padding: 12PX;
+    border-radius: 12px;
+}
+
+h3.desit-one {
+    font-family: var(--unbounded-font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+    padding-bottom: 52px;
+}
+
+h5.create-an-account-heading-five {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+    padding-bottom: 8px;
+}
+
+p.register-quickly-para {
+    color: var(--subtitle-light-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
 }
 
 /* How Our Platform Works End */
