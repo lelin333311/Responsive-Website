@@ -265,6 +265,10 @@ p.active-companies {
     padding-left: 18px;
 }
 
+.connecting-talent-to-real-opportunity-second-section {
+    padding-top: 50px;
+}
+
 .discover-right-section-images {
     display: inline-flex;
     justify-content: center;
@@ -812,7 +816,7 @@ p.job-finding {
 
 .create-an-account-section {
     background-color: var(--border-color);
-    padding: 12PX;
+    padding: 10PX;
     border-radius: 12px;
 }
 
@@ -844,6 +848,112 @@ p.register-quickly-para {
 }
 
 /* How Our Platform Works End */
+
+/* connecting-talent-to-real-opportunity-start */
+
+section.connecting-talent-to-real-opportunity {
+    background-color: var(--primary-font-color);
+    padding: 50px 0 50px 0;
+}
+
+h3.connecting-talent-to-real-heading-three-division {
+    font-family: var(--unbounded-font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--common-color);
+    padding: 24px 0;
+}
+
+span.real-opportunity {
+    color: var(--primary-button-color);
+}
+
+p.we-aim-to-connect {
+    color: var(--sub-title);
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+
+.empower-career-growth {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content:start;
+    gap: 12px;
+    padding: 15px 0 8px 0;
+}
+
+.empower-career-growth-two {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content:start;
+    gap: 12px;
+    padding: 24px 0 8px 0;
+}
+
+h6.empower-career-growth {
+    color: var(--common-color);
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+p.we-help-users-para {
+    color: var(--sub-title);
+    font-family: var(--lato-font-family);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+
+.discover-of-better-section.better-section {
+    padding-right: 38.5px;
+}
+
+.connecting-talent-to-real-opportunity-second-section.second-section {
+    padding-left: 38.5px;
+}
+
+.honest-and-transparent-job-connections {
+    padding: 32px 0;
+}
+
+.honest-tick-mark {
+    padding-bottom: 20px;
+}
+
+p.circle-check i {
+    color: var(--primary-button-color);
+    padding-right: 16px;
+}
+
+span.honest {
+    font-family: var(--lato-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+}
+
+.discover-of-better-section.better-section {
+    position: relative;
+}
+
+img.discover-images {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+/* connecting-talent-to-real-opportunity-end */
 
 /* Media Screen Start */
 
