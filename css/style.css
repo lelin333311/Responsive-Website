@@ -72,6 +72,12 @@
     padding: 0 15px;
 }
 
+.container-latest-insights {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Row */
 .row {
     display: flex;
@@ -1239,7 +1245,61 @@ h6.how-do {
 
 /* frequently asked questions end */
 
+/* Latest Insights & Career Tips Start */
 
+.top-strategies {
+    padding: 20px;
+    border: 1px solid #0000000D;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 12px;
+}
+
+img.top-strategies-image {
+    padding-bottom: 4px;
+}
+
+.top-strategies-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+p.date-time {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding-top: 24px;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+}
+
+h5.top-strategies-heading-five {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 18.5px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+    padding: 12px 0 20px 12px;
+}
+
+p.short-guide-para {
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    padding: 0 20px 0 20px;
+}
+
+.how-to-choose {
+    padding: 20px;
+}
+
+/* Latest Insights & Career Tips End */
 
 
 
