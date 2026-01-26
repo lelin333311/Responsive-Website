@@ -78,6 +78,12 @@
     padding: 0 15px;
 }
 
+.container-next-opportunity {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Row */
 .row {
     display: flex;
@@ -1246,13 +1252,15 @@ h6.how-do {
 /* frequently asked questions end */
 
 /* Latest Insights & Career Tips Start */
+.top-strategies-main {
+}
 
 .top-strategies {
     padding: 20px;
-    border: 1px solid #0000000D;
     width: 100%;
     max-width: 550px;
     border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px #0000000D;
 }
 
 img.top-strategies-image {
@@ -1263,7 +1271,6 @@ img.top-strategies-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
 }
 
 p.date-time {
@@ -1282,7 +1289,7 @@ h5.top-strategies-heading-five {
     font-size: 18.5px;
     line-height: 135%;
     color: var(--primary-font-color);
-    padding: 12px 0 20px 12px;
+    padding: 12px 0 12px 0;
 }
 
 p.short-guide-para {
@@ -1292,13 +1299,14 @@ p.short-guide-para {
     font-weight: 400;
     letter-spacing: -0.01em;
     color: var(--subtitle-light-color);
-    padding: 0 20px 0 20px;
+    padding-bottom: 10px;
 }
 
 .how-to-choose {
     padding: 20px;
-    border: 1px solid red;
+    border: 1px solid var(--border-color);
     border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px #0000000D;
 }
 
 .choose-secound {
@@ -1339,15 +1347,35 @@ h5.how-to-choose-the-right {
 p.a-practical-breakdown-para {
     font-family: var(--lato-font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--subtitle-light-color);
 }
 
+.how-to-choose-two {
+    padding-top: 20px;
+}
+
+.how-to-choose-three {
+    padding-top: 20px;
+}
+
 /* Latest Insights & Career Tips End */
 
+/* Ready to Find Your Next Opportunity Start */
 
+.ready-to-find-your-next-opportunity {
+    padding: 140px 0;
+}
+
+.container-next {
+    background: linear-gradient(to right, #F9E8D6, #FFF0E2, #DEE5E8);
+}
+
+
+
+/* Ready to Find Your Next Opportunity End */
 
 
 
