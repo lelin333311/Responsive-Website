@@ -1297,6 +1297,52 @@ p.short-guide-para {
 
 .how-to-choose {
     padding: 20px;
+    border: 1px solid red;
+    border-radius: 12px;
+}
+
+.choose-secound {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.how-to-choose-the-right-career {
+    width: 100%;
+}
+
+.career-date-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14.83px;
+    padding-bottom: 12px;
+}
+
+p.june-month {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--subtitle-light-color);
+}
+
+h5.how-to-choose-the-right {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+    padding-bottom: 8px;
+}
+
+p.a-practical-breakdown-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
 }
 
 /* Latest Insights & Career Tips End */
