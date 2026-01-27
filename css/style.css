@@ -32,6 +32,7 @@
     --border-color: #F4F4F4;
     --ux-ui-button-main: #F2E6D8;
     --hover-button-color: #0E3C48;
+    --find-to-next-color: #F5D6B6;
 }
 
 /* All Container */
@@ -82,6 +83,14 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    position: relative;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
 }
 
 /* Row */
@@ -173,7 +182,6 @@
     font-weight: 500;
     line-height: 16px;
     padding: 16px 32px;
-    gap: 10px;
     border-radius: 48px;
 }
 
@@ -1252,8 +1260,6 @@ h6.how-do {
 /* frequently asked questions end */
 
 /* Latest Insights & Career Tips Start */
-.top-strategies-main {
-}
 
 .top-strategies {
     padding: 20px;
@@ -1366,17 +1372,194 @@ p.a-practical-breakdown-para {
 /* Ready to Find Your Next Opportunity Start */
 
 .ready-to-find-your-next-opportunity {
-    padding: 140px 0;
+    padding: 125.5px 0;
 }
 
 .container-next {
     background: linear-gradient(to right, #F9E8D6, #FFF0E2, #DEE5E8);
+    display: flex;
+    z-index: 1;
+    position: relative;
+    border-radius: 12px;
+}
+
+.next-opportunity {
+    padding-top: 72px;
+    padding-left: 56px;
+
+}
+
+.ready-find-heading {
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+h2.ready-find {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+}
+
+p.create-your-free-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--primary-font-color);
+    padding-bottom: 40px;
+}
+
+.next-opportunity-image {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--find-to-next-color);
+    padding: 4px 12px 4px 8px;
+    border-radius: 40px;
+}
+
+p.cta {
+    font-family: var(--lato-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
+}
+
+.nav-button.button-nev {
+    padding-bottom: 88px;
+}
+
+.find-next-images {
+    width: 80%;
+}
+
+img.find-next-images-main {
+    width: fit-content;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Ready to Find Your Next Opportunity End */
+
+/* Footer Section Start */
+
+footer.joblyze-footer-section {
+    padding: 120px 120px 0 120px;
+    background-color: var(--primary-font-color);
+}
+
+img.footer-image {
+    padding-bottom: 24px;
+}
+
+.smart-job p.smart-job-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--common-color);
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    padding-bottom: 45px;
+}
+
+p.footer-subscribe-para {
+    font-family: var(--lato-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--common-color);
+    padding-bottom: 20px;
+}
+
+.email-address {
+    position: relative;
+    width: 390px;
+    height: 64px;
+}
+
+button.absulate {
+    position: absolute;
+    left: 47%;
+    top: 6%;
+    width: 133px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    text-decoration: none;
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 16px 32px;
+    border: 1px solid var(--primary-button-color);
+}
+
+input#email {
+    padding: 20px 135px 20px 24px;
+    border-radius: 60px;
+    border: 1px solid var(--primary-font-color);
 }
 
 
 
-/* Ready to Find Your Next Opportunity End */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section End */
 
 
 
