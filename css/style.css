@@ -44,9 +44,9 @@
 
 /*  Container-discover-section  */
 .container-hero-discover {
-    max-width: 1392px;
+    /* max-width: 1392px; */
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 24px;
 }
 
 .container-joblyze {
@@ -1487,8 +1487,8 @@ p.footer-subscribe-para {
 
 button.absulate {
     position: absolute;
-    left: 47%;
-    top: 6%;
+    left: 65%;
+    top: 14%;
     width: 133px;
     height: 48px;
     border-radius: 48px;
@@ -1498,7 +1498,7 @@ button.absulate {
     font-family: var(--lato-font-family);
     font-size: 16px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 100%;
     padding: 16px 32px;
     border: 1px solid var(--primary-button-color);
 }
@@ -1507,25 +1507,124 @@ input#email {
     padding: 20px 135px 20px 24px;
     border-radius: 60px;
     border: 1px solid var(--primary-font-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    width: 60%;
 }
 
+ul.company-underline {
+    list-style-type: none;
+}
 
+li.one-footer {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+    padding-bottom: 20px;
+}
 
+li.two-footer,
+li.three-footer,
+li.four-footer,
+li.five-footer {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--common-color);
+    padding-bottom: 20px;
+}
 
+li.six-footer {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--common-color);
+}
 
+.designed-powered {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
 
+.designed-powered-footer {
+    padding-top: 180px;
+    padding-bottom: 32px;
+}
 
+p.designed, p.powered {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--sub-title);
+}
 
+.fontawsome-footer-logo {
+    text-align: end;
+}
 
+.fontawsome-footer-logo a {
+    padding-right: 20px;
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-reddit-alien {
+    color: var(--primary-button-color);
+    transition: color 0.3s;
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-reddit-alien:hover {
+    color: var(--bg-color-success);
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-twitter {
+    color: var(--primary-button-color);
+    transition: color 0.3s;
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-twitter:hover {
+    color: var(--bg-color-success);
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-youtube {
+    color: var(--primary-button-color);
+    transition: color 0.3s;
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-youtube:hover {
+    color: var(--bg-color-success);
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-youtube {
+    color: var(--primary-button-color);
+    transition: color 0.3s;
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-youtube:hover {
+    color: var(--bg-color-success);
+}
 
+.fontawsome-footer-logo i.fa-brands.fa-linkedin-in {
+    color: var(--primary-button-color);
+    transition: color 0.3s;
+}
+
+.fontawsome-footer-logo i.fa-brands.fa-linkedin-in:hover {
+    color: var(--bg-color-success);
+}
 
 
 
