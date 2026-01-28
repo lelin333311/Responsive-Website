@@ -601,7 +601,8 @@ p.apply-quickly-para {
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--faster-application-para-color);
-    padding-bottom: 38px;
+    padding-top: 12px;
+    padding-bottom: 26px;
 }
 
 img.faster-application-image {
@@ -1564,7 +1565,8 @@ li.six-footer {
     padding-bottom: 32px;
 }
 
-p.designed, p.powered {
+p.designed,
+p.powered {
     font-family: var(--lato-font-family);
     font-weight: 400;
     font-size: 14px;
@@ -1626,40 +1628,7 @@ p.designed, p.powered {
     color: var(--bg-color-success);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Section End */
-
 
 
 /* Media Screen Start */
