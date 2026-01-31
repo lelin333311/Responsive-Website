@@ -242,17 +242,31 @@ ul {
 
 li a {
     text-decoration: none;
-    color: var(--common-color);
+    color: var(--primary-font-color);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+}
+
+li.services a {
+    transition: ease-in-out 3s;
+}
+
+li.services:hover a {
+    color: red;
 }
 
 a.cta {
-    text-decoration: none;
     background-color: var(--primary-button-color);
     color: var(--primary-font-color);
+    text-decoration: none;
     font-family: var(--lato-font-family);
-    padding: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 16px;
+    padding: 16px 32px;
     border-radius: 48px;
 }
 
@@ -306,6 +320,10 @@ a.cta {
     li.aboutt,
     li.companyy {
         padding-top: 20px;
+    }
+
+    li a {
+        color: var(--common-color);
     }
 
     .cta-main {
