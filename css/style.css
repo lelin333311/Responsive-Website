@@ -250,12 +250,14 @@ li a {
     letter-spacing: -0.01em;
 }
 
-li.services a {
-    transition: ease-in-out 3s;
+li a.services, li a.projects, li a.about, li a.company {
+    font-weight: 400;
+    color: var(--hover-button-color);
+    transition: ease-in-out 0.3s;
 }
 
-li.services:hover a {
-    color: red;
+li a.services:hover, li a.projects:hover, li a.about:hover, li a.company:hover {
+    font-weight: 700;
 }
 
 a.cta {
@@ -359,21 +361,21 @@ a.cta {
     }
 
     .hamburger-menu span {
-    transition: all 0.3s ease;
-}
+        transition: all 0.3s ease;
+    }
 
-/* Transform spans into an X when active */
-.hamburger-menu-main.active .hamburger-menu span:nth-child(1) {
-    transform: translateY(10.5px) rotate(45deg);
-}
+    /* Transform spans into an X when active */
+    .hamburger-menu-main.active .hamburger-menu span:nth-child(1) {
+        transform: translateY(10.5px) rotate(45deg);
+    }
 
-.hamburger-menu-main.active .hamburger-menu span:nth-child(2) {
-    opacity: 0;
-}
+    .hamburger-menu-main.active .hamburger-menu span:nth-child(2) {
+        opacity: 0;
+    }
 
-.hamburger-menu-main.active .hamburger-menu span:nth-child(3) {
-    transform: translateY(-10.5px) rotate(-45deg);
-}
+    .hamburger-menu-main.active .hamburger-menu span:nth-child(3) {
+        transform: translateY(-10.5px) rotate(-45deg);
+    }
 
 }
 
