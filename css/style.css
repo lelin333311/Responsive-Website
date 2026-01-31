@@ -261,10 +261,8 @@ a.cta {
 
     .header-two {
         display: block;
-    }
-
-    .header-two {
         align-items: flex-start;
+        padding: 0 20px;
     }
 
     .ul-two {
@@ -325,7 +323,7 @@ a.cta {
         cursor: pointer;
         position: absolute;
         top: -69px;
-        right: 5%;
+        right: 0%;
     }
 
     .hamburger-menu span {
