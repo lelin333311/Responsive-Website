@@ -242,14 +242,17 @@ ul {
 
 li a {
     text-decoration: none;
-    color: black;
+    color: var(--common-color);
 }
 
 a.cta {
     text-decoration: none;
-    color: black;
-    background-color: aquamarine;
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    font-family: var(--lato-font-family);
     padding: 20px;
+    font-weight: 500;
+    line-height: 16px;
     border-radius: 48px;
 }
 
@@ -275,6 +278,8 @@ a.cta {
 
     .ul-two li {
         padding: 15px 0;
+        font-family: var(--lato-font-family);
+        font-size: 18px;
     }
 
     .nav-two {
@@ -292,7 +297,9 @@ a.cta {
     }
 
     .nav-two.active {
-        left: -193px;
+        left: -150px;
+        z-index: 1;
+        background-color: var(--hover-button-color);
     }
 
     li.projectss,
