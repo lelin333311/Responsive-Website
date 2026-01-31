@@ -260,6 +260,19 @@ li a.services:hover, li a.projects:hover, li a.about:hover, li a.company:hover {
     font-weight: 700;
 }
 
+a.services::after, a.projects::after, a.about::after, a.company::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--hover-button-color);
+    transition: width .3s;
+}
+
+a.services:hover::after, a.projects:hover::after, a.about:hover::after, a.company:hover::after {
+    width: 100%;
+}
+
 a.cta {
     background-color: var(--primary-button-color);
     color: var(--primary-font-color);
@@ -376,7 +389,6 @@ a.cta {
     .hamburger-menu-main.active .hamburger-menu span:nth-child(3) {
         transform: translateY(-10.5px) rotate(-45deg);
     }
-
 }
 
 
