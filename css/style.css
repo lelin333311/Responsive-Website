@@ -46,7 +46,7 @@
 .container-hero-discover {
     max-width: 1392px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 15px 15px;
     background-color: var(--primary-font-color);
     border-radius: 12px;
 }
@@ -263,14 +263,8 @@ a.cta {
 
 /* Discover Section Start */
 
-.discover-section {
-    padding: 0 24px;
-    background-color: var(--common-color);
-}
-
 .discover-of-better-section {
     position: relative;
-    padding: 15px 0 15px 0;
 }
 
 img.discover-main-svg-image {
@@ -439,15 +433,12 @@ p.businesses-helping-section {
 
 .logo-marquee {
     padding: 40px 0;
-    /* position: relative; */
-
     background-image: linear-gradient(90deg, #fff 5%,
             hsla(200, 9%, 93%, 0) 10%),
         linear-gradient(270deg, #fff 5%, hsla(200, 9%, 93%, 0) 10%);
     top: 40px;
     height: 64px;
     left: 0;
-    /* position: absolute; */
     width: 100%;
     z-index: 1;
 }
@@ -650,8 +641,6 @@ p.apply-quickly-para {
 }
 
 img.faster-application-image {
-    /* position: absolute;
-    bottom: 01px; */
     border-bottom-right-radius: 12px;
     width: 100%;
 }
@@ -1140,10 +1129,6 @@ p.show-real-para {
     100% {
         transform: translateX(100%);
     }
-
-    /* 100% {
-        transform: translateX(100%);
-    } */
 }
 
 .marque-div-two {
@@ -1169,10 +1154,6 @@ p.show-real-para {
     100% {
         transform: translateX(-100%);
     }
-
-    /* 100% {
-        transform: translateX(100%);
-    } */
 }
 
 p.olivia-martinez {
@@ -1721,70 +1702,6 @@ p.powered {
         width: 100%;
     }
 
-    /* navber start */
-
-    /* nav.navigation-ber .nav-img-and-home-nevber {
-        display: none;
-    }
-
-    .nav-small-img-and-home-nevber {
-        display: flex;
-        justify-content: space-evenly;
-        position: relative;
-    }
-
-    .navigation-small-four .all-nav-small-ul-section ul.nav-small-ul-section {
-        list-style-type: none;
-        padding-bottom: 40px;
-    }
-
-    .navigation-small-four .all-nav-small-ul-section ul.nav-small-ul-section li.nav-small-li-section a.nav-small-a-section {
-        text-decoration: none;
-        font-size: 16px;
-        line-height: 16px;
-        letter-spacing: -0.16px;
-        font-weight: 400;
-        font-family: var(--lato-font-family);
-        color: var(--primary-font-color);
-    } */
-
-    /* Small Button */
-    /* .nav-small-img-and-home-nevber .navigation-small-four .nav-small-button a.nav-small-button-section {
-        background-color: var(--primary-button-color);
-        color: var(--primary-font-color);
-        text-decoration: none;
-        font-family: var(--lato-font-family);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 16px;
-        padding: 16px 32px;
-        gap: 10px;
-        border-radius: 48px;
-    }
-
-    span.navber-small-span {
-        display: block;
-        width: 20px;
-        height: 3px;
-        background-color: var(--primary-font-color);
-        margin: 5px 0;
-        transition: 0.3s ease;
-    }
-
-    #menu-toggle {
-        display: none;
-    }
-
-    .all-nav-small-ul-section {
-        text-align: center;
-    }
-
-    li.nav-small-li-section {
-        padding-bottom: 40px;
-    } */
-
-    /* navber end */
-
     .discover-hero-right-section {
         padding-top: 0;
     }
@@ -1800,9 +1717,13 @@ p.powered {
         text-align: center;
     }
 
+    .fastest-job-network-image img.fastest-job-image {
+        width: 94%;
+    }
+
 }
 
-@media screen and(max-width: 767px) {
+@media screen and (max-width: 767px) {
     .col-6 {
         width: 100%;
     }
@@ -1915,9 +1836,13 @@ p.powered {
     }
 }
 
-@media screen and(max-width: 575px) {
+@media screen and (max-width: 575px) {
     .col-6 {
         width: 100%;
+    }
+
+    .fastest-job-network-image img.fastest-job-image {
+        width: 90%;
     }
 }
 
