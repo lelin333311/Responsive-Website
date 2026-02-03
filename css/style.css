@@ -12,8 +12,6 @@
 }
 
 body {
-    overflow-x: hidden;
-    box-sizing: border-box;
     padding: 0 24px 0 24px;
 }
 
@@ -934,7 +932,7 @@ p.register-quickly-para {
 section.connecting-talent-to-real-opportunity {
     background-color: var(--primary-font-color);
     padding: 50px 0 50px 0;
-    border-radius: 12px;
+    margin: 0 -24px;
 }
 
 h3.connecting-talent-to-real-heading-three-division {
@@ -1247,7 +1245,7 @@ span.ratting {
 }
 
 .question.active {
-    background: rgb(239, 231, 231);
+    background: var(--common-color);
 }
 
 h6.how-do {
@@ -1861,7 +1859,7 @@ p.powered {
     }
 
     .nav-two.active {
-        left: -150px;
+        left: -414px;
         z-index: 1;
         background-color: var(--hover-button-color);
     }
@@ -1910,6 +1908,10 @@ p.powered {
 
     .hamburger-menu span {
         transition: all 0.3s ease;
+    }
+
+    .trusted-section-first, .trusted-section-second, .trusted-section-third {
+        margin: auto;
     }
 
     /* Transform spans into an X when active */
