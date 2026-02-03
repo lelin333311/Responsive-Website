@@ -60,9 +60,6 @@ body {
 .discover-section-mein-content {
     background-color: var(--primary-font-color);
     border-radius: 12px;
-    padding: 0 15px 0 15px;
-
-
 }
 
 .container-joblyze {
@@ -1760,7 +1757,6 @@ p.powered {
 
     .discover-hero-right-section {
         padding-top: 40px;
-
     }
 
     h1.discover-right-heading-section {
@@ -1825,20 +1821,17 @@ p.powered {
 @media screen and (max-width: 864px) {
     .discover-successful-jobs {
         display: inline-flex;
-        padding-top: 75px;
     }
 }
 
 @media screen and (max-width: 844px) {
     .discover-successful-jobs {
         display: inline-flex;
-        padding-top: 57px;
     }
 }
 
 @media screen and (max-width: 770px) {
     .discover-hero-right-section {
-        padding-top: 23px;
         text-align: center;
     }
 }
