@@ -1914,6 +1914,15 @@ p.powered {
         margin: auto;
     }
 
+    .new-jobs-para-main {
+        text-align: center;
+    }
+
+    p.display-recently-posted {
+    margin: auto;
+    text-align: center;
+}
+
     /* Transform spans into an X when active */
     .hamburger-menu-main.active .hamburger-menu span:nth-child(1) {
         transform: translateY(10.5px) rotate(45deg);
