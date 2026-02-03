@@ -1140,16 +1140,6 @@ p.show-real-para {
     animation: marque-div 5s linear infinite;
 }
 
-@keyframes marque-div {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
-
 .marque-div-two {
     display: flex;
     align-items: center;
@@ -1165,9 +1155,35 @@ p.show-real-para {
     animation: marque-div-two 5s linear infinite;
 }
 
+@keyframes marque-div {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(25%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
 @keyframes marque-div-two {
     0% {
         transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
     }
 
     100% {
@@ -1775,16 +1791,28 @@ p.powered {
     }
 
     h3.connecting-talent-to-real-heading-three-division {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
 
-.connecting-talent-to-real-opportunity-second-section {
-    padding-top: 0;
-}
+    .connecting-talent-to-real-opportunity-second-section {
+        padding-top: 0;
+    }
 
-.empower-career-growth {
-    padding: 10px 0 10px 0;
-}
+    .empower-career-growth {
+        padding: 10px 0 10px 0;
+    }
+
+    p.we-aim-to-connect {
+        font-size: 12px;
+    }
+
+    .honest-and-transparent-job-connections {
+        padding: 10px 0;
+    }
+
+    .honest-tick-mark {
+        padding-bottom: 18px;
+    }
 
 }
 
@@ -1937,7 +1965,8 @@ p.powered {
         text-align: center;
     }
 
-    .empower-career-growth, .empower-career-growth-two {
+    .empower-career-growth,
+    .empower-career-growth-two {
         justify-content: center;
     }
 
