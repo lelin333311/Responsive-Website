@@ -1088,6 +1088,10 @@ p.show-real-para {
     padding-bottom: 48px;
 }
 
+.marque-division-main-all {
+    border-radius: 12px;
+}
+
 .marque-division-main {
     display: flex;
     align-items: center;
@@ -1096,7 +1100,6 @@ p.show-real-para {
     background-color: var(--border-color);
     padding: 48px 0 0 0;
     overflow: hidden;
-    border-radius: 12px;
 }
 
 
