@@ -1082,10 +1082,6 @@ p.show-real-para {
     padding-bottom: 48px;
 }
 
-.marque-division-main-all {
-    border-radius: 12px;
-}
-
 .marque-division-main {
     display: flex;
     align-items: center;
@@ -1094,6 +1090,8 @@ p.show-real-para {
     background-color: var(--border-color);
     padding: 48px 0 0 0;
     overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 
@@ -1115,6 +1113,8 @@ p.show-real-para {
     background-color: var(--border-color);
     padding: 32px 0 48px 0;
     overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .marque-division-main-first-part {
@@ -1291,10 +1291,14 @@ h6.how-do {
     padding: 10px;
 }
 
+.all-acordion {
+    position: relative;
+}
+
 .plus {
     position: absolute;
-    margin-left: 35%;
-    margin-top: 0.75%;
+    left: 124%;
+    top: 13%;
     z-index: 5;
     font-size: 2em;
     line-height: 100%;
@@ -1698,9 +1702,19 @@ p.powered {
 
 /* Media Screen Start */
 
+@media screen and (max-width: 1761px) {}
+
+@media screen and (max-width: 1633px) {}
+
+@media screen and (max-width: 1516px) {}
+
 @media screen and (max-width: 1440px) {
-    section.connecting-talent-to-real-opportunity {
-        margin: 0 -24px 0 -24px;
+    .question {
+        width: 100%;
+    }
+
+    .plus {
+        left: 103%;
     }
 }
 
@@ -1761,6 +1775,10 @@ p.powered {
 
     button.absulate {
         padding: 15px 0px;
+    }
+
+    h6.how-do {
+        font-size: 12px;
     }
 }
 
@@ -2021,6 +2039,11 @@ p.powered {
         padding-top: 55px;
     }
 
+    .newsletter-signup {
+        display: flex;
+        justify-content: center;
+    }
+
     .designed-powered {
         justify-content: center;
     }
@@ -2028,6 +2051,11 @@ p.powered {
     .fontawsome-footer-logo {
         text-align: center;
         padding-top: 20px;
+    }
+
+    h2.new-jobs-heading-two,
+    .show-real-para.second-para {
+        text-align: center;
     }
 }
 
