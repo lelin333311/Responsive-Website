@@ -1799,6 +1799,13 @@ p.powered {
         font-size: 35px;
     }
 
+    .trusted-section-first,
+    .trusted-section-second,
+    .trusted-section-third,
+    .trusted-platform-image-svg-third {
+        max-width: none;
+    }
+
     .discover-zigzag-image img.discover-zigzag-image {
         position: absolute;
         top: -60%;
@@ -2056,6 +2063,31 @@ p.powered {
     h2.new-jobs-heading-two,
     .show-real-para.second-para {
         text-align: center;
+    }
+
+    h6.how-do {
+        font-size: 16px;
+    }
+
+    section.connecting-talent-to-real-opportunity {
+        text-align: center;
+    }
+
+    .nav-button {
+        padding-bottom: 25px;
+    }
+
+    .new-jobs-para {
+        background-color: var(--off-white-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin: 0 auto;
+        width: fit-content;
+        padding: 4px 12px 4px 8px;
+        border-radius: 40px;
+
     }
 }
 
