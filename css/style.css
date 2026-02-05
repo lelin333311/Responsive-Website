@@ -11,10 +11,6 @@
     padding: 0;
 }
 
-body {
-    padding: 0 24px 0 24px;
-}
-
 /* Root Veriable */
 :root {
     --primary-button-color: #BFFF47;
@@ -55,6 +51,7 @@ body {
     max-width: 1392px;
     margin: 0 auto;
     background: var(--common-color);
+    padding: 0 20px;
 }
 
 .discover-section-mein-content {
@@ -276,6 +273,8 @@ a.cta {
 
 .discover-of-better-section {
     position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 img.discover-main-svg-image {
@@ -1519,7 +1518,6 @@ img.find-next-images-main {
 footer.joblyze-footer-section {
     padding: 120px 120px 0 120px;
     background-color: var(--primary-font-color);
-    margin: 0 -24px;
 }
 
 img.footer-image {
@@ -1546,16 +1544,17 @@ p.footer-subscribe-para {
 }
 
 .email-address {
-    position: relative;
-    width: 390px;
-    height: 64px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 380px;
 }
 
 button.absulate {
     position: absolute;
-    left: 65%;
+    left: 70%;
     top: 14%;
-    width: 133px;
+    width: 35%;
     height: 48px;
     border-radius: 48px;
     background-color: var(--primary-button-color);
@@ -1570,7 +1569,7 @@ button.absulate {
 }
 
 input#email {
-    padding: 20px 135px 20px 24px;
+    padding: 20px 0px 20px 24px;
     border-radius: 60px;
     border: 1px solid var(--primary-font-color);
     font-family: var(--lato-font-family);
@@ -1579,7 +1578,7 @@ input#email {
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--subtitle-light-color);
-    width: 60%;
+    width: 100%;
 }
 
 ul.company-underline {
@@ -1745,16 +1744,6 @@ p.powered {
         font-size: 17px;
     }
 
-    input#email {
-        padding: 20px 70px 20px 24px;
-    }
-
-    button.absulate {
-        position: absolute;
-        left: 48%;
-        top: 14%;
-    }
-
     li.two-footer,
     li.three-footer,
     li.four-footer,
@@ -1762,11 +1751,16 @@ p.powered {
     li.six-footer {
         font-size: 12px;
     }
-}
 
-@media screen and (max-width: 922px) {
-    h1.discover-right-heading-section {
-        font-size: 29px;
+    .email-address {
+        position: absolute;
+        width: 30%;
+        height: auto;
+        max-width: 380px;
+    }
+
+    button.absulate {
+        padding: 15px 0px;
     }
 }
 
@@ -1834,10 +1828,6 @@ p.powered {
         padding-bottom: 18px;
     }
 
-    input#email {
-        padding: 20px 45px 20px 24px;
-    }
-
     li.one-footer {
         font-size: 20px;
     }
@@ -1846,10 +1836,20 @@ p.powered {
         font-size: 13px;
     }
 
+    input#email {
+        font-size: 12px;
+    }
+
     button.absulate {
-        position: absolute;
-        left: 41%;
-        top: 14%;
+        font-size: 12px;
+        top: 11%;
+        left: 72%;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    h1.discover-right-heading-section {
+        font-size: 29px;
     }
 }
 
@@ -2007,6 +2007,27 @@ p.powered {
 
     .discover-hero-right-section {
         text-align: center;
+    }
+
+    footer.joblyze-footer-section {
+        text-align: center;
+    }
+
+    input#email {
+        padding: 20px 0px 20px 15px;
+    }
+
+    ul.company-underline {
+        padding-top: 55px;
+    }
+
+    .designed-powered {
+        justify-content: center;
+    }
+
+    .fontawsome-footer-logo {
+        text-align: center;
+        padding-top: 20px;
     }
 }
 
