@@ -1331,14 +1331,13 @@ h6.how-do {
 
 .top-strategies {
     padding: 20px;
-    width: 100%;
-    max-width: 550px;
     border-radius: 12px;
     box-shadow: 0px 0px 20px 0px #0000000D;
 }
 
 img.top-strategies-image {
-    padding-bottom: 4px;
+    width: 100%;
+    max-width: 550px;
 }
 
 .top-strategies-two {
@@ -1360,7 +1359,7 @@ p.date-time {
 h5.top-strategies-heading-five {
     font-family: var(--unbounded-font-family);
     font-weight: 500;
-    font-size: 18.5px;
+    font-size: 18px;
     line-height: 135%;
     color: var(--primary-font-color);
     padding: 12px 0 12px 0;
@@ -1383,11 +1382,17 @@ p.short-guide-para {
     box-shadow: 0px 0px 20px 0px #0000000D;
 }
 
+
+
 .choose-secound {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+}
 
+img.career-image-main {
+    width: 100%;
+    max-width: 152px;
 }
 
 .how-to-choose-the-right-career {
@@ -1398,7 +1403,6 @@ p.short-guide-para {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 14.83px;
     padding-bottom: 12px;
 }
 
@@ -1428,11 +1432,11 @@ p.a-practical-breakdown-para {
 }
 
 .how-to-choose-two {
-    padding-top: 20px;
+    padding-top: 65px;
 }
 
 .how-to-choose-three {
-    padding-top: 20px;
+    padding-top: 65px;
 }
 
 /* Latest Insights & Career Tips End */
@@ -1452,7 +1456,7 @@ p.a-practical-breakdown-para {
 }
 
 .next-opportunity {
-    padding-top: 72px;
+    padding-top: 94px;
     padding-left: 56px;
 
 }
@@ -1720,6 +1724,15 @@ p.powered {
 
 @media screen and (max-width: 1399px) {}
 
+@media screen and (max-width: 1222px) {
+    .next-opportunity {
+        padding-top: 72px;
+        padding-left: 56px;
+    }
+}
+
+
+
 @media screen and (max-width: 1199px) {
 
     .col-3 {
@@ -1875,6 +1888,33 @@ p.powered {
 @media screen and (max-width: 922px) {
     h1.discover-right-heading-section {
         font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 903px) {
+    .find-next-images {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 903px) {
+    .find-next-images {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 882px) {
+    .find-next-images {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 875px) {
+    .find-next-images {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 869px) {
+    .find-next-images {
+        width: 74%;
     }
 }
 
