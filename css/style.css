@@ -186,6 +186,11 @@
     line-height: 16px;
     padding: 16px 32px;
     border-radius: 48px;
+    transition: ease-in-out 0.5s;
+}
+
+.nav-button:hover a.nav-button-section {
+    background-color: var(--common-color);
 }
 
 header {
