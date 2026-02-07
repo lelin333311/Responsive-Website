@@ -1448,49 +1448,26 @@ p.a-practical-breakdown-para {
 }
 
 .container-next {
-    background: linear-gradient(to right, #F9E8D6, #FFF0E2, #DEE5E8);
-    display: flex;
-    z-index: 1;
-    position: relative;
+    background-image: url('/assets/images/frame-main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 72px 0 87px 56px;
     border-radius: 12px;
-}
-
-.next-opportunity {
-    padding-top: 94px;
-    padding-left: 56px;
-
-}
-
-.ready-find-heading {
-    padding-top: 24px;
-    padding-bottom: 16px;
-}
-
-h2.ready-find {
-    font-family: var(--unbounded-font-family);
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 130%;
-    color: var(--primary-font-color);
-}
-
-p.create-your-free-para {
-    font-family: var(--lato-font-family);
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 150%;
-    letter-spacing: -0.01em;
-    color: var(--primary-font-color);
-    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .next-opportunity-image {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: start;
     gap: 12px;
     background-color: var(--find-to-next-color);
     padding: 4px 12px 4px 8px;
     border-radius: 40px;
+    width: fit-content;
 }
 
 p.cta {
@@ -1502,21 +1479,23 @@ p.cta {
     color: var(--secondery-bg-color);
 }
 
-.nav-button.button-nev {
-    padding-bottom: 88px;
+h2.ready-find {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    padding: 24px 0 16px 0;
 }
 
-.find-next-images {
-    width: 80%;
-}
-
-img.find-next-images-main {
-    width: fit-content;
-    position: absolute;
-    right: 0%;
-    z-index: -1;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 12px;
+p.create-your-free-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--primary-font-color);
+    padding-bottom: 40px;
 }
 
 /* Ready to Find Your Next Opportunity End */
@@ -1724,15 +1703,6 @@ p.powered {
 
 @media screen and (max-width: 1399px) {}
 
-@media screen and (max-width: 1222px) {
-    .next-opportunity {
-        padding-top: 72px;
-        padding-left: 56px;
-    }
-}
-
-
-
 @media screen and (max-width: 1199px) {
 
     .col-3 {
@@ -1888,39 +1858,6 @@ p.powered {
 @media screen and (max-width: 922px) {
     h1.discover-right-heading-section {
         font-size: 29px;
-    }
-}
-
-@media screen and (max-width: 903px) {
-    .find-next-images {
-        width: 78%;
-    }
-}
-
-@media screen and (max-width: 903px) {
-    .find-next-images {
-        width: 77%;
-    }
-}
-@media screen and (max-width: 882px) {
-    .find-next-images {
-        width: 76%;
-    }
-}
-@media screen and (max-width: 875px) {
-    .find-next-images {
-        width: 75%;
-    }
-}
-@media screen and (max-width: 869px) {
-    .find-next-images {
-        width: 74%;
-    }
-}
-
-@media screen and (max-width: 864px) {
-    .discover-successful-jobs {
-        display: inline-flex;
     }
 }
 
