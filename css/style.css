@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Root Veriable */
@@ -46,12 +47,16 @@
     padding: 0 15px;
 }
 
-/*  Container-discover-section  */
+/*  Container-discover-section Start  */
 .container-hero-discover {
-    max-width: 1392px;
+    max-width: 1472px;
     margin: 0 auto;
-    background: var(--common-color);
-    padding: 0 20px;
+    background: var(--primary-font-color);
+    border-radius: 16px;
+}
+
+.discover-section {
+    position: relative;
 }
 
 .discover-section-mein-content {
@@ -103,27 +108,12 @@
     position: relative;
 }
 
+/*  Container-discover-section End  */
+
 /* Row */
 .row {
     display: flex;
     flex-wrap: wrap;
-}
-
-/* Column common style */
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 /* Column width */
@@ -197,6 +187,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px 20px;
 }
 
 .header-two {
@@ -206,7 +197,6 @@ header {
 .images {
     width: 100%;
     max-width: 150px;
-    height: 100px;
 }
 
 ul {
@@ -217,7 +207,7 @@ ul {
     list-style: none;
 }
 
-li a {
+li a.servicess {
     text-decoration: none;
     color: var(--primary-font-color);
     font-family: var(--lato-font-family);
@@ -225,28 +215,11 @@ li a {
     font-size: 16px;
     line-height: 100%;
     letter-spacing: -0.01em;
-}
-
-li a.services,
-li a.projects,
-li a.about,
-li a.company {
-    font-weight: 400;
     color: var(--hover-button-color);
     transition: ease-in-out 0.3s;
 }
 
-li a.services:hover,
-li a.projects:hover,
-li a.about:hover,
-li a.company:hover {
-    font-weight: 700;
-}
-
-a.services::after,
-a.projects::after,
-a.about::after,
-a.company::after {
+li a.servicess::after {
     content: '';
     display: block;
     width: 0;
@@ -255,10 +228,7 @@ a.company::after {
     transition: width .3s;
 }
 
-a.services:hover::after,
-a.projects:hover::after,
-a.about:hover::after,
-a.company:hover::after {
+li a.servicess:hover::after {
     width: 100%;
 }
 
@@ -274,56 +244,74 @@ a.cta {
     border-radius: 48px;
 }
 
-/* Discover Section Start */
+/* Hero Section Start */
 
-.discover-of-better-section {
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+section.discover-better-section {
+    padding: 0 24px;
 }
 
-img.discover-main-svg-image {
+.container-better {
+    max-width: 1472px;
     width: 100%;
-    height: auto;
+    margin: 0 auto;
+    background-color: var(--primary-font-color);
+    border-radius: 16px;
 }
 
-img.discover-main-svg-image.firsr-image {
-    padding: 15px 0 15px 0;
+.wraper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.discover-hero-s-media {
-    position: absolute;
+img.discover-section-images {
+    width: 100%;
+    padding: 32px 24px 32px 32px;
+}
+
+.social-media {
+    display: inline-grid;
+    gap: 8px;
     background-color: var(--background-color-blur);
     padding: 6px;
     border-radius: 70px;
-    left: 80%;
-    top: 5%;
-    display: grid;
-    gap: 8px;
+    position: absolute;
+    top: 49px;
+    right: 41px;
 }
 
-.discover-hero-s-media a.s-media-hero-section i {
-    background-color: var(--common-color);
+.social-media a {
+    padding: 8px;
     border-radius: 48px;
-    padding: 16px;
-    gap: 10px;
+    background-color: var(--common-color);
+    transition: 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    background-color: var(--primary-button-color);
+}
+
+.social-media-all {
     color: var(--primary-font-color);
 }
 
-.active-verified-hero-section {
-    position: absolute;
+.discover-section-two {
     background-color: var(--background-color-blur);
-    padding: 20px 24px;
-    gap: 45px;
-    border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    bottom: 8%;
-    left: 4%;
+    justify-content: center;
+    position: absolute;
+    padding: 20px 24px;
+    gap: 47px;
+    border-radius: 12px;
+    max-width: 632px;
+    width: 100%;
+    bottom: 56px;
+    left: 56px;
 }
 
-h2.number-discover-section {
+h2.job-list-heading-two {
     font-family: var(--poppins-font-family);
     font-weight: 600;
     font-size: 36px;
@@ -331,7 +319,7 @@ h2.number-discover-section {
     color: var(--common-color);
 }
 
-p.active-companies {
+p.job-list-heading-two-para {
     font-family: var(--poppins-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -339,31 +327,36 @@ p.active-companies {
     color: var(--common-color);
 }
 
-.line-discover-section {
-    border: 1px solid var(--common-color);
-    height: 70px;
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: var(--common-color);
+    display: inline-block;
 }
 
-.discover-hero-right-section {
-    padding-top: 109px;
-    padding-left: 18px;
+.discover-section-second {
+    padding: 124px 96px 32px 24px;
 }
 
-.connecting-talent-to-real-opportunity-second-section {
-    padding-top: 23px;
+.popular-section-all {
+    padding: 124px 96px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
 }
 
-.discover-right-section-images {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+.popular-section {
     background-color: var(--secondery-bg-color);
-    padding: 4px 12px 4px 8px;
     border-radius: 40px;
+    padding: 4px 12px 4px 8px;
+    gap: 12px;
+    display: inline-flex;
+    align-items: center;
 }
 
-p.discover-right-most-popular {
+p.platform-para-more {
     font-family: var(--lato-font-family);
     font-weight: 500;
     font-size: 14px;
@@ -372,71 +365,69 @@ p.discover-right-most-popular {
     color: var(--sub-title);
 }
 
-h1.discover-right-heading-section {
+h1.discover-heading-one {
     font-family: var(--unbounded-font-family);
-    color: var(--common-color);
     font-weight: 500;
-    font-size: 50px;
+    font-size: 56px;
     line-height: 125%;
-    padding-top: 32px;
+    margin: 32px 0 20px 0;
+    color: var(--common-color);
 }
 
-h1.discover-right-heading-section span.opportunities {
+.opportunities {
     color: var(--primary-button-color);
 }
 
-p.discover-para-section {
+p.discover-para {
     font-family: var(--lato-font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--sub-title);
-    padding: 20px 0 40px 0;
 }
 
-.nav-button-section.button-padding {
-    padding: 20px 40px !important;
+.discover-button-main {
+    margin-top: 40px;
 }
 
-.discover-successful-jobs {
-    padding-top: 177px;
+a.discover-button {
+    font-family: var(--lato-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--primary-font-color);
+    background-color: var(--primary-button-color);
+    padding: 20px 40px;
+    border-radius: 48px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.discover-down-image {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 16px;
 }
 
-h3.number-job-holder {
+h3.five-m {
+    color: var(--primary-button-color);
     font-family: var(--poppins-font-family);
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
-    color: var(--primary-button-color);
-    z-index: 22;
 }
 
-p.job-sucessful-member {
+p.sucess-job {
+    color: var(--bg-color-success);
     font-family: var(--poppins-font-family);
-    font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    color: var(--bg-color-success);
+    font-weight: 500;
+    line-height: 100%;
 }
 
-.discover-zigzag-image img.discover-zigzag-image {
-    position: absolute;
-    top: 10%;
-    left: -2%;
-    width: 1392px;
-    height: 824px;
-}
-
-.helping-businesses-find-great-talent {
-    padding: 100px 69px 140px 69px;
-}
-
-/* Discover Section End */
+/* Hero Section End */
 
 /* Helping Businesses Marque Secion Start */
 
@@ -1690,22 +1681,6 @@ p.powered {
 
 /* Media Screen Start */
 
-@media screen and (max-width: 1761px) {}
-
-@media screen and (max-width: 1633px) {}
-
-@media screen and (max-width: 1516px) {}
-
-@media screen and (max-width: 1440px) {
-    .question {
-        width: 100%;
-    }
-
-    .plus {
-        left: 103%;
-    }
-}
-
 @media screen and (max-width: 1399px) {}
 
 @media screen and (max-width: 1199px) {
@@ -1798,15 +1773,6 @@ p.powered {
         position: absolute;
         top: -60%;
         left: -40%;
-    }
-
-    img.discover-main-svg-image {
-        display: block;
-        padding-left: 0;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-        height: auto;
     }
 
     h5.frontend-developer {
