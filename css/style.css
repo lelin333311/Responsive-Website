@@ -462,6 +462,12 @@ p.businesses-helping-section {
     z-index: 1;
 }
 
+.logo-marquee-gradient {
+  padding: 0 150px;
+  -webkit-mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
+  mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
+}
+
 .logo-marquee-marquee {
     display: flex;
     overflow: hidden;
