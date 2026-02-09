@@ -296,19 +296,25 @@ img.discover-section-images {
     color: var(--primary-font-color);
 }
 
+.discover-section-two-main {
+    position: absolute;
+    width: 100%;
+    padding: 0 40px;
+    bottom: 56px;
+    left: 4px;
+}
+
 .discover-section-two {
     background-color: var(--background-color-blur);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
     padding: 20px 24px;
     gap: 47px;
     border-radius: 12px;
-    max-width: 632px;
-    width: 100%;
-    bottom: 56px;
-    left: 56px;
+    /* max-width: 632px;
+    width: 100%; */
 }
 
 h2.job-list-heading-two {
