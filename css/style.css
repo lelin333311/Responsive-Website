@@ -38,6 +38,7 @@
     --trusted-section-second: linear-gradient(to bottom, #03151A, #0F6780);
     --trusted-section-second-bottom-ber: linear-gradient(to bottom, #041D24, #0D5B71);
     --trusted-section-third: linear-gradient(to bottom, #D0D7F2, #EBE1DA);
+    --light-gradient-marque-bg-color: linear-gradient(to bottom, #FFFFFF00, #FFFFFF, #FFFFFF, #FFFFFF00);
 }
 
 /* All Container */
@@ -309,12 +310,9 @@ img.discover-section-images {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: absolute; */
     padding: 20px 24px;
     gap: 47px;
     border-radius: 12px;
-    /* max-width: 632px;
-    width: 100%; */
 }
 
 h2.job-list-heading-two {
@@ -436,6 +434,10 @@ p.sucess-job {
 /* Hero Section End */
 
 /* Helping Businesses Marque Secion Start */
+
+.helping-businesses-find-great-talent {
+    padding: 140px 0;
+}
 
 p.businesses-helping-section {
     text-align: center;
@@ -1687,7 +1689,11 @@ p.powered {
 
 /* Media Screen Start */
 
-@media screen and (max-width: 1399px) {}
+@media screen and (max-width: 1399px) {
+    h1.discover-heading-one {
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width: 1199px) {
 
@@ -1721,6 +1727,10 @@ p.powered {
         position: absolute;
         top: -20%;
         left: -140%;
+    }
+
+    .popular-section-all {
+        padding: 40px 96px 32px 24px;
     }
 
     h5.frontend-developer {
@@ -1779,6 +1789,14 @@ p.powered {
         position: absolute;
         top: -60%;
         left: -40%;
+    }
+
+    p.discover-para {
+        font-size: 12px;
+    }
+
+    h1.discover-heading-one {
+        font-size: 35px;
     }
 
     h5.frontend-developer {
@@ -1945,6 +1963,10 @@ p.powered {
 
     .hamburger-menu span {
         transition: all 0.3s ease;
+    }
+
+    a.discover-button {
+        margin-bottom: 20px;
     }
 
     .trusted-section-first,
