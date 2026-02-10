@@ -1465,6 +1465,36 @@ p.a-practical-breakdown-para {
     padding: 125.5px 0;
 }
 
+.hero-discover-images {
+    max-width: 554px;
+    width: 100%;
+    position: relative;
+}
+
+img.discover-main-svg-image {
+    width: 100%;
+}
+
+.active-verified-hero-section {
+    position: absolute;
+}
+
+h2.number-discover-section {
+    font-family: var(--poppins-font-family);
+    color: var(--common-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+p.active-companies {
+    font-family: var(--poppins-font-family);
+    color: var(--common-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
 .container-next {
     background-image: url('/assets/images/frame-main.png');
     background-size: cover;
