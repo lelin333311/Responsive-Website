@@ -93,13 +93,6 @@
     padding: 0 15px;
 }
 
-.container-next-opportunity {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    position: relative;
-}
-
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -461,9 +454,9 @@ p.businesses-helping-section {
 }
 
 .logo-marquee-gradient {
-  padding: 0 150px;
-  -webkit-mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
-  mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
+    padding: 0 150px;
+    -webkit-mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
+    mask-image: linear-gradient(to right, #00000000, #000000 20%, #000000 80%, #00000000);
 }
 
 .logo-marquee-marquee {
@@ -1032,7 +1025,7 @@ span.honest {
     color: var(--sub-title);
 }
 
-.discover-of-better-section.better-section {
+.trafic-chanal {
     position: relative;
 }
 
@@ -1459,94 +1452,60 @@ p.a-practical-breakdown-para {
 
 /* Latest Insights & Career Tips End */
 
-/* Ready to Find Your Next Opportunity Start */
+/* Connecting Talent to Real Opportunity Start */
 
-.ready-to-find-your-next-opportunity {
-    padding: 125.5px 0;
+section.connecting-talent-section {
+    padding: 80px 120px;
+    background-color: var(--primary-font-color);
 }
 
-.hero-discover-images {
+.container-next-opportunity {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.real-opportunity {
+    position: relative;
     max-width: 554px;
     width: 100%;
-    position: relative;
 }
 
-img.discover-main-svg-image {
+img.image-talent-images {
     width: 100%;
 }
 
-.active-verified-hero-section {
+.sucessfull-placement {
     position: absolute;
-}
-
-h2.number-discover-section {
-    font-family: var(--poppins-font-family);
-    color: var(--common-color);
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 100%;
-}
-
-p.active-companies {
-    font-family: var(--poppins-font-family);
-    color: var(--common-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 100%;
-}
-
-.container-next {
-    background-image: url('/assets/images/frame-main.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 72px 0 87px 56px;
+    background-color: var(--background-color-blur);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px;
+    gap: 47px;
     border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    bottom: 20px;
+    left: 20px;
+    width: 100%;
+    max-width: 514px;
 }
 
-.next-opportunity-image {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 12px;
-    background-color: var(--find-to-next-color);
-    padding: 4px 12px 4px 8px;
-    border-radius: 40px;
-    width: fit-content;
-}
-
-p.cta {
-    font-family: var(--lato-font-family);
-    font-weight: 500;
-    font-size: 14px;
+.sucessfull-two-hundred {
+    font-family: var(--poppins-font-family);
+    font-weight: 600;
+    font-size: 36px;
     line-height: 100%;
-    letter-spacing: -0.01em;
-    color: var(--secondery-bg-color);
+    color: var(--common-color);
 }
 
-h2.ready-find {
-    font-family: var(--unbounded-font-family);
+.successful {
+    font-family: var(--poppins-font-family);
     font-weight: 500;
-    font-size: 40px;
-    line-height: 130%;
-    color: var(--primary-font-color);
-    padding: 24px 0 16px 0;
-}
-
-p.create-your-free-para {
-    font-family: var(--lato-font-family);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: -0.01em;
-    color: var(--primary-font-color);
-    padding-bottom: 40px;
+    line-height: 100%;
+    color: var(--common-color);
 }
 
-/* Ready to Find Your Next Opportunity End */
+/* Connecting Talent to Real Opportunity End */
 
 /* Footer Section Start */
 
