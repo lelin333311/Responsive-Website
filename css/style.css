@@ -1308,7 +1308,7 @@ h6.how-do {
 
 .plus {
     position: absolute;
-    left: 124%;
+    left: 120%;
     top: 13%;
     z-index: 5;
     font-size: 2em;
@@ -1474,8 +1474,14 @@ img.image-talent-images {
     width: 100%;
 }
 
-.sucessfull-placement {
+.sucessfull-placement-main {
     position: absolute;
+    bottom: 20px;
+    left: 12px;
+    padding: 0 20px;
+}
+
+.sucessfull-placement {
     background-color: var(--background-color-blur);
     display: flex;
     align-items: center;
@@ -1483,13 +1489,11 @@ img.image-talent-images {
     padding: 20px 24px;
     gap: 47px;
     border-radius: 12px;
-    bottom: 20px;
-    left: 20px;
-    width: 100%;
+    width: -webkit-fill-available;
     max-width: 514px;
 }
 
-.sucessfull-two-hundred {
+h3.sucessfull-two-hundred {
     font-family: var(--poppins-font-family);
     font-weight: 600;
     font-size: 36px;
@@ -1497,7 +1501,7 @@ img.image-talent-images {
     color: var(--common-color);
 }
 
-.successful {
+p.successful {
     font-family: var(--poppins-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -1762,6 +1766,10 @@ p.powered {
     h6.how-do {
         font-size: 12px;
     }
+
+    .sucessfull-placement-main {
+        left: unset;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -1851,6 +1859,22 @@ p.powered {
         top: 11%;
         left: 72%;
     }
+
+    .sucessfull-placement-main {
+        left: unset;
+    }
+
+    h3.sucessfull-two-hundred {
+        font-family: var(--poppins-font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        color: var(--common-color);
+    }
+
+    p.successful {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 922px) {
@@ -1862,6 +1886,10 @@ p.powered {
 @media screen and (max-width: 844px) {
     .discover-successful-jobs {
         display: inline-flex;
+    }
+
+    .sucessfull-placement {
+        gap: 20px;
     }
 }
 
