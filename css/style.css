@@ -1529,7 +1529,21 @@ p.our-mission-para {
     font-weight: 500;
 }
 
+h3.connecting-talent {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--common-color);
+    font-family: var(--unbounded-font-family);
+}
 
+span.real-opportunity-span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--primary-button-color);
+    font-family: var(--unbounded-font-family);
+}
 
 /* Connecting Talent to Real Opportunity End */
 
