@@ -90,7 +90,6 @@
 .container-latest-insights {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .container-footer {
@@ -169,10 +168,31 @@
     padding: 16px 32px;
     border-radius: 48px;
     transition: ease-in-out 0.5s;
+    display: inline-block;
 }
 
-.nav-button:hover a.nav-button-section {
-    background-color: var(--common-color);
+ a.nav-button-section:hover {
+    background-color: rgb(16, 17, 17);
+    color: white;
+}
+
+.button-nev a.nav-button-section-two {
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    text-decoration: none;
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 16px 32px;
+    border-radius: 48px;
+    transition: ease-in-out 0.5s;
+    display: inline-block;
+}
+
+ a.nav-button-section-two:hover {
+    background-color: rgb(16, 17, 17);
+    color: white;
 }
 
 header {
@@ -700,6 +720,7 @@ h2.new-jobs-heading-two {
     line-height: 130%;
     color: var(--primary-font-color);
     padding-top: 24px;
+    padding-bottom: 48px;
 }
 
 p.display-recently-posted {
@@ -711,7 +732,7 @@ p.display-recently-posted {
     color: var(--subtitle-light-color);
     margin-left: auto;
     width: fit-content;
-    padding-top: 50px;
+    padding-top: 102px;
 }
 
 .mid-level-designer {
@@ -962,15 +983,6 @@ p.we-aim-to-connect {
     line-height: 150%;
     letter-spacing: -0.01em;
     font-weight: 400;
-}
-
-.empower-career-growth {
-    display: flex;
-    text-align: center;
-    align-items: baseline;
-    justify-content: start;
-    gap: 12px;
-    padding: 15px 0 8px 0;
 }
 
 .empower-career-growth-two {
@@ -1242,10 +1254,8 @@ span.ratting {
 }
 
 .content {
-    width: 90%;
-    padding: 20px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 60px 0 0;
 }
 
 .question {
@@ -1254,7 +1264,7 @@ span.ratting {
     margin: 0;
     padding: 20px 24px 20px 24px;
     display: block;
-    width: 125%;
+    width: 100%;
     max-width: 659px;
     height: 65px;
     cursor: pointer;
@@ -1272,7 +1282,7 @@ span.ratting {
 }
 
 h6.how-do {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .answers {
@@ -1308,8 +1318,8 @@ h6.how-do {
 
 .plus {
     position: absolute;
-    left: 120%;
-    top: 13%;
+    right: 18px;
+    top: 12px;
     z-index: 5;
     font-size: 2em;
     line-height: 100%;
@@ -1344,6 +1354,7 @@ h6.how-do {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 0px 20px 0px #0000000D;
+    margin-right: 10px;
 }
 
 img.top-strategies-image {
@@ -1391,6 +1402,8 @@ p.short-guide-para {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     box-shadow: 0px 0px 20px 0px #0000000D;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .choose-secound {
@@ -1445,7 +1458,7 @@ p.a-practical-breakdown-para {
 }
 
 .how-to-choose-three {
-    padding-top: 65px;
+    padding: 65px 0 0 0;
 }
 
 /* Latest Insights & Career Tips End */
@@ -1556,9 +1569,114 @@ span.real-opportunity-span {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: -0.01em;
+    font-weight: 400;
+}
+
+.empower-career-growth {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    gap: 12px;
+    padding: 32px 0 8px 0;
+}
+
+h6.empower-career-heading-six {
+    color: var(--common-color);
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+p.we-help-users {
+    color: var(--sub-title);
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+}
+
+.second-section {
+    padding-top: 56px;
+}
+
+.main-mission-our {
+    padding: 3px 56px 3px 0;
+}
+
+.honest-transparent-main {
+    padding-top: 32px;
+}
+
+a.circle-check {
+    text-decoration: none;
+    color: var(--primary-button-color);
+}
+
+.honest-and-transparent-job {
+    padding-left: 16px;
+    color: var(--sub-title);
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+}
+
+.honest-transparent-second {
+    padding: 20px 0;
+}
+
+.honest-transparent-forth {
+    padding: 20px 0 32px 0;
+}
+
+p.cta-para {
+    font-family: var(--lato-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
+}
+
+h2.ready-find {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    margin: 24px 0 16px 0;
+}
+
+p.create-your-free-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--primary-font-color);
+    margin-bottom: 40px;
 }
 
 /* Connecting Talent to Real Opportunity End */
+
+/* Ready to Find Your Next Opportunity Start */
+
+section.ready-to-find-your-next-opportunity {
+    padding: 140px 0;
+}
+
+.next-opportunity-image {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--find-to-next-color);
+    padding: 4px 12px 4px 8px;
+    border-radius: 40px;
+}
+
+/* Ready to Find Your Next Opportunity End */
 
 /* Footer Section Start */
 
@@ -1875,10 +1993,6 @@ p.powered {
         padding-top: 0;
     }
 
-    .empower-career-growth {
-        padding: 10px 0 10px 0;
-    }
-
     p.we-aim-to-connect {
         font-size: 12px;
     }
@@ -2066,11 +2180,6 @@ p.powered {
 
     .create-an-account-section {
         text-align: center;
-    }
-
-    .empower-career-growth,
-    .empower-career-growth-two {
-        justify-content: center;
     }
 
     /* Transform spans into an X when active */
