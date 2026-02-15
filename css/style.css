@@ -1738,35 +1738,19 @@ p.footer-subscribe-para {
     padding-bottom: 20px;
 }
 
-.email-address {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    max-width: 380px;
+.submit-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 332px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 60px;
 }
-
-button.absulate {
-    position: absolute;
-    left: 70%;
-    top: 14%;
-    width: 35%;
-    height: 48px;
-    border-radius: 48px;
-    background-color: var(--primary-button-color);
-    color: var(--primary-font-color);
-    text-decoration: none;
-    font-family: var(--lato-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 100%;
-    padding: 16px 32px;
-    border: 1px solid var(--primary-button-color);
-}
-
-input#email {
+.input-field{
+    border: none;
     padding: 20px 0px 20px 24px;
     border-radius: 60px;
-    border: 1px solid var(--primary-font-color);
     font-family: var(--lato-font-family);
     font-weight: 400;
     font-size: 16px;
@@ -1775,6 +1759,20 @@ input#email {
     color: var(--subtitle-light-color);
     width: 100%;
 }
+
+button.btn {
+    border: 1px solid var(--primary-button-color);
+    border-radius: 48px;
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 16px 32px;
+}
+
+
 
 ul.company-underline {
     list-style-type: none;
@@ -1949,7 +1947,7 @@ p.powered {
         font-size: 12px;
     }
 
-    .email-address {
+    .newsletter-signup {
         position: absolute;
         width: 30%;
         height: auto;
@@ -2050,7 +2048,7 @@ p.powered {
     button.absulate {
         font-size: 12px;
         top: 11%;
-        left: 72%;
+        left: 60%;
     }
 
     .sucessfull-placement-main {
@@ -2231,19 +2229,19 @@ p.powered {
 
     footer.joblyze-footer-section {
         text-align: center;
-    }
-
-    input#email {
-        padding: 20px 0px 20px 15px;
+        padding: 120px 0 0 0;
     }
 
     ul.company-underline {
-        padding-top: 55px;
+        padding-top: 70px;
     }
 
     .newsletter-signup {
         display: flex;
         justify-content: center;
+        position: absolute;
+        width: 100%;
+        max-width: 380px;
     }
 
     .designed-powered {
@@ -2282,7 +2280,15 @@ p.powered {
         width: fit-content;
         padding: 4px 12px 4px 8px;
         border-radius: 40px;
+    }
 
+    .email-address {
+        left: 10px;
+    }
+
+    input#email, button.absulate {
+        font-size: 16px;
+        top: 14%;
     }
 }
 
