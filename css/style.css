@@ -171,9 +171,9 @@
     display: inline-block;
 }
 
- a.nav-button-section:hover {
-    background-color: rgb(16, 17, 17);
-    color: white;
+a.nav-button-section:hover {
+    background-color: var(--secondery-bg-color);
+    color: var(--common-color);
 }
 
 .button-nev a.nav-button-section-two {
@@ -190,9 +190,9 @@
     display: inline-block;
 }
 
- a.nav-button-section-two:hover {
-    background-color: rgb(16, 17, 17);
-    color: white;
+a.nav-button-section-two:hover {
+    background-color: var(--secondery-bg-color);
+    color: var(--common-color);
 }
 
 header {
@@ -1664,7 +1664,7 @@ p.create-your-free-para {
 /* Ready to Find Your Next Opportunity Start */
 
 section.ready-to-find-your-next-opportunity {
-    padding: 140px 0;
+    margin: 140px 0;
 }
 
 .next-opportunity-image {
@@ -1674,6 +1674,36 @@ section.ready-to-find-your-next-opportunity {
     background-color: var(--find-to-next-color);
     padding: 4px 12px 4px 8px;
     border-radius: 40px;
+}
+
+.container-next {
+    background-image: var(--trusted-section-first);
+    padding: 76px 56px;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.ready-to-find-images {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    z-index: -1;
+}
+
+img.smiling-young-man {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%);
+    mask-image: linear-gradient(to right, transparent 0%, black 10%);
+    transition: mask-image 0.4s ease;
+}
+
+h2.ready-find {
+    max-width: 594px;
+
 }
 
 /* Ready to Find Your Next Opportunity End */
@@ -2101,7 +2131,7 @@ p.powered {
         left: -110%;
         height: 100vh;
         width: 60%;
-        background-color: #f4f4f4;
+        background-color: var(--border-color);
         padding-top: 60px;
         transition: left 0.3s ease;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
