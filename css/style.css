@@ -244,7 +244,7 @@ li a.servicess:hover::after {
     width: 100%;
 }
 
-a.cta {
+a.btn {
     background-color: var(--primary-button-color);
     color: var(--primary-font-color);
     text-decoration: none;
@@ -254,6 +254,30 @@ a.cta {
     line-height: 16px;
     padding: 16px 32px;
     border-radius: 48px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+a.btn:hover {
+    background-color: var(--common-color);
+}
+
+button.btn {
+    border: none;
+    background-color: var(--primary-button-color);
+    color: var(--primary-font-color);
+    font-family: var(--lato-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 16px 32px;
+    border-radius: 48px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+button.btn:hover {
+    background-color: var(--common-color);
 }
 
 /* Hero Section Start */
@@ -1703,15 +1727,20 @@ img.smiling-young-man {
 
 h2.ready-find {
     max-width: 594px;
-
 }
 
 /* Ready to Find Your Next Opportunity End */
 
+/* Index-two.html page Start */
+section.about-us-section {}
+
+/* Index-two.html page End */
+
+
 /* Footer Section Start */
 
 footer.joblyze-footer-section {
-    padding: 120px 120px 0 120px;
+    padding: 120px 0 0 0;
     background-color: var(--primary-font-color);
 }
 
@@ -1738,45 +1767,33 @@ p.footer-subscribe-para {
     padding-bottom: 20px;
 }
 
-.submit-form {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    max-width: 332px;
-    background-color: white;
-    padding: 8px;
-    border-radius: 60px;
-}
-.input-field{
+input.input-field {
     border: none;
-    padding: 20px 0px 20px 24px;
+    margin-left: 16px;
+
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+form.submit-form {
+    display: flex;
+    gap: 16px;
     border-radius: 60px;
-    font-family: var(--lato-font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: -0.01em;
-    color: var(--subtitle-light-color);
-    width: 100%;
+    background: white;
+    justify-content: space-between;
+    max-width: 390px;
+    align-items: center;
+    padding: 8px;
 }
-
-button.btn {
-    border: 1px solid var(--primary-button-color);
-    border-radius: 48px;
-    background-color: var(--primary-button-color);
-    color: var(--primary-font-color);
-    font-family: var(--lato-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 100%;
-    padding: 16px 32px;
-}
-
-
 
 ul.company-underline {
     list-style-type: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-start;
 }
 
 li.one-footer {
@@ -1799,7 +1816,6 @@ li.five-footer {
     line-height: 150%;
     letter-spacing: -0.01em;
     color: var(--common-color);
-    padding-bottom: 20px;
 }
 
 li.six-footer {
@@ -1945,13 +1961,6 @@ p.powered {
     li.five-footer,
     li.six-footer {
         font-size: 12px;
-    }
-
-    .newsletter-signup {
-        position: absolute;
-        width: 30%;
-        height: auto;
-        max-width: 380px;
     }
 
     button.absulate {
@@ -2234,14 +2243,15 @@ p.powered {
 
     ul.company-underline {
         padding-top: 70px;
+        display: grid;
     }
 
     .newsletter-signup {
-        display: flex;
+        display: grid;
+        align-content: center;
         justify-content: center;
-        position: absolute;
-        width: 100%;
-        max-width: 380px;
+        align-items: center;
+        justify-items: center;
     }
 
     .designed-powered {
@@ -2286,7 +2296,8 @@ p.powered {
         left: 10px;
     }
 
-    input#email, button.absulate {
+    input#email,
+    button.absulate {
         font-size: 16px;
         top: 14%;
     }
