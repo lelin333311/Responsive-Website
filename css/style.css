@@ -1975,7 +1975,7 @@ section.joblyze-help {
 .joblyze-help-out-main {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin: 32px 0 56px 0;
 }
 
@@ -1995,6 +1995,54 @@ h2.joblyze-help-out {
 a.btn.joblyze-btn {
     display: inline-block;
 }
+
+.job-matching-main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+}
+
+h3.job-matching-desit {
+    font-family: var(--unbounded-font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+}
+
+p.explore-review-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    margin-top: 12px;
+}
+
+.seamless-experience-one {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    margin: 32px 0 36px 0;
+}
+
+h4.seamless-experience-desit {
+    font-family: var(--poppins-font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-font-color);
+}
+
+p.seamless-experience-para {
+    font-family: var(--poppins-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--primary-font-color);
+}
+
 
 /* How Joblyze Can Help You Out End */
 
