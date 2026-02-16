@@ -1996,6 +1996,10 @@ a.btn.joblyze-btn {
     display: inline-block;
 }
 
+.job-matching-main-all-work {
+    padding-right: 13px;
+}
+
 .job-matching-main {
     display: flex;
     align-items: center;
@@ -2027,6 +2031,7 @@ p.explore-review-para {
     justify-content: start;
     gap: 16px;
     margin: 32px 0 36px 0;
+    max-width: 332px;
 }
 
 h4.seamless-experience-desit {
@@ -2041,6 +2046,26 @@ p.seamless-experience-para {
     font-weight: 500;
     font-size: 16px;
     color: var(--primary-font-color);
+}
+
+p.smart-tools-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    margin-top: 36px;
+    max-width: 387px;
+}
+
+.we-simplify-images-main {
+    padding-left: 13px;
+    max-width: 723px; 
+}
+
+.simplify-images-main {
+    width: 100%;
 }
 
 
