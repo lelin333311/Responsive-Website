@@ -1767,24 +1767,20 @@ h1.about-us {
 
 /* Level Up Your Career with Awesome Opportunities! Start */
 
-.level-up-wraper {
-    padding-bottom: 36px;
+.level-up-one {
+    max-width: 627px;
 }
 
 h2.level-up-heading {
     font-family: var(--unbounded-font-family);
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 130%;
     color: var(--primary-font-color);
 }
 
-.level-up-one {
-    max-width: 627px;
-}
-
 .level-up-two {
-    max-width: 396px;
+    padding-left: 42%;
 }
 
 p.level-up-two-para {
@@ -1800,6 +1796,7 @@ p.level-up-two-para {
 .level-up-image-main {
     max-width: 1200px;
     width: 100%;
+    padding-top: 36px;
 }
 
 img.level-up-image {
