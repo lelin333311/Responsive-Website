@@ -1955,6 +1955,10 @@ a.circle-check-second i {
     color: var(--primary-button-color);
 }
 
+.we-aim-to-connect.aim-connect {
+    max-width: 536px;
+}
+
 /* The Principles We Stand By End */
 
 
