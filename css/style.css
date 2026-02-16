@@ -1996,6 +1996,10 @@ a.btn.joblyze-btn {
     display: inline-block;
 }
 
+.job-matching-main-divisiov {
+    margin-bottom: 56px;
+}
+
 .job-matching-main-all-work {
     padding-right: 13px;
 }
@@ -2061,11 +2065,66 @@ p.smart-tools-para {
 
 .we-simplify-images-main {
     padding-left: 13px;
-    max-width: 723px; 
+    max-width: 723px;
 }
 
 .simplify-images-main {
     width: 100%;
+}
+
+.skills-and-preferences {
+    background-color: var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.real-time {
+    width: 56px;
+    height: 56px;
+}
+
+img.real-time-image {
+    border-radius: 100%;
+    background-color: var(--common-color);
+    padding: 16px;
+    stroke-width: 1px;
+    stroke: #f4f4f4;
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.filters-results-main {
+    margin: 52px 0 8px 0;
+}
+
+h5.filters-results {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+}
+
+p.results-based-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+}
+
+.skills-and-preferences-second {
+    background-color: var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.skills-and-preferences-third {
+    background-color: var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 0 0 10px;
 }
 
 
@@ -2647,3 +2706,60 @@ p.powered {
 }
 
 /* Media Screen End */
+
+
+
+
+
+
+
+/* New Display Grid Template */
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    flex: 1;
+
+}
+
+.card-icon-wraper {
+    width: 56px;
+    height: 56px;
+    background-color: var(--common-color);
+    padding: 16px;
+    border-radius: 100%;
+}
+
+.discreption {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h5.dis-title {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+}
+
+p.dis-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+}
+
+
