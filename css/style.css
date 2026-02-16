@@ -101,6 +101,15 @@
 
 /*  Container-discover-section End  */
 
+/*  Container About Us section Start  */
+
+.container-about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*  Container About Us section End  */
+
 /* Row */
 .row {
     display: flex;
@@ -245,6 +254,7 @@ li a.servicess:hover::after {
 }
 
 a.btn {
+    display: inline-block;
     background-color: var(--primary-button-color);
     color: var(--primary-font-color);
     text-decoration: none;
@@ -1731,10 +1741,189 @@ h2.ready-find {
 
 /* Ready to Find Your Next Opportunity End */
 
-/* Index-two.html page Start */
-section.about-us-section {}
 
-/* Index-two.html page End */
+/*========= Index-two.html page Start =========*/
+
+/* About Us Hero Section Start */
+section.about-hero-section {
+    padding: 0 0 60px 0;
+}
+
+.container-about-us.container-bg-color {
+    background-color: var(--primary-font-color);
+    border-radius: 12px;
+}
+
+h1.about-us {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 125%;
+    color: var(--common-color);
+    text-align: center;
+    padding: 75px 0;
+}
+
+/* About Us Hero Section End */
+
+/* Level Up Your Career with Awesome Opportunities! Start */
+
+.level-up-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 36px;
+}
+
+h2.level-up-heading {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+}
+
+.level-up-one {
+    max-width: 627px;
+}
+
+.level-up-two {
+    max-width: 396px;
+}
+
+p.level-up-two-para {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+    padding-top: 20px;
+}
+
+/* Level Up Your Career with Awesome Opportunities! End */
+
+/* Marque Businesses Start */
+
+.helping-businesses-find-great-talent.great-talent {
+    padding: 0 0 100px 0;
+}
+
+/* Marque Businesses End */
+
+/* Explain how Joblyze start */
+
+.story-main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    background-color: var(--off-white-color);
+    border-radius: 40px;
+    padding: 4px 12px 4px 8px;
+}
+
+p.our-story-para {
+    font-family: var(--lato-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--secondery-bg-color);
+}
+
+h3.focusing-on-trust {
+    font-family: var(--unbounded-font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    color: var(--primary-font-color);
+}
+
+span.simplifying {
+    color: var(--sub-title);
+}
+
+/* Explain how Joblyze End */
+
+/* Connecting Talent to Real Opportunity Start */
+
+section.connecting-real-opportunity {
+    padding: 140px 0;
+}
+
+.connecting-real-opportunity-all {
+    max-width: 574px;
+    width: 100%;
+}
+
+h2.connecting-talent-heading {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    margin: 32px 0 24px 0;
+}
+
+.we-aim-main {
+    max-width: 487px;
+}
+
+p.we-aim {
+    font-family: var(--lato-font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--subtitle-light-color);
+}
+
+.cta-main.main-cta {
+    margin: 32px 0 118px 0;
+}
+
+.verified-companies-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px 0 0;
+}
+
+h2.verified-companies-fifty-k {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--unbounded-font-family);
+    margin-bottom: 8px;
+}
+
+p.active-job {
+    font-family: var(--poppins-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--subtitle-light-color);
+}
+
+.verified-companies-images {
+    padding: 0 0 0 5px;
+    max-width: 590px;
+}
+
+img.verified-companies-images-main {
+    width: 100%;
+}
+
+/* Connecting Talent to Real Opportunity End */
+
+
+
+
+
+
+
+/* ============Index-two.html page End============== */
 
 
 /* Footer Section Start */
