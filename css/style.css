@@ -1928,14 +1928,31 @@ a.circle-check-second {
     text-decoration: none;
 }
 
+h3.connecting-talent {
+    margin: 24px 0 16px 0;
+}
+
 .principles-section {
     padding: 80px 120px;
     background-color: var(--primary-font-color);
 }
 
+p.innovation-driven {
+    font-family: var(--lato-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--common-color);
+}
+
 span.every-job {
     font-weight: 400;
     color: var(--sub-title);
+}
+
+a.circle-check-second i {
+    color: var(--primary-button-color);
 }
 
 /* The Principles We Stand By End */
