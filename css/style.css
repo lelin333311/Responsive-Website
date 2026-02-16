@@ -1921,12 +1921,22 @@ img.verified-companies-images-main {
 
 /* The Principles We Stand By Start */
 
+a.circle-check-second {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+
 .principles-section {
     padding: 80px 120px;
     background-color: var(--primary-font-color);
 }
 
-
+span.every-job {
+    font-weight: 400;
+    color: var(--sub-title);
+}
 
 /* The Principles We Stand By End */
 
