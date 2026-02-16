@@ -1921,6 +1921,11 @@ img.verified-companies-images-main {
 
 /* The Principles We Stand By Start */
 
+.main-mission-our-second {
+    max-width: 590px;
+    padding: 47px 15px;
+}
+
 a.circle-check-second {
     display: flex;
     align-items: center;
@@ -1961,9 +1966,37 @@ a.circle-check-second i {
 
 /* The Principles We Stand By End */
 
+/* How Joblyze Can Help You Out Start */
 
+section.joblyze-help {
+    padding: 140px 0;
+}
 
+.joblyze-help-out-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 32px 0 56px 0;
+}
 
+h2.joblyze-help-out {
+    font-family: var(--unbounded-font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--primary-font-color);
+    max-width: 421px;
+}
+
+.joblyze-btn-main {
+    padding-top: 50px;
+}
+
+a.btn.joblyze-btn {
+    display: inline-block;
+}
+
+/* How Joblyze Can Help You Out End */
 
 /* ============Index-two.html page End============== */
 
